@@ -218,8 +218,9 @@ thead tr {
 	td:nth-of-type(7):before { content: "Samedi"; }
 	td:nth-of-type(8):before { content: "Dimanche"; }
 }
-@media screen and (max-width: 790px){
-	textarea{
-		width : 95%;
+@media screen and (max-width: 790px) {
+	textarea {
+		width: 95%;
 	}
+}
 
