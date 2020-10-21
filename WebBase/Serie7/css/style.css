@@ -1,0 +1,11 @@
+
+	fieldset {
+		border-width: 1px;
+		border-style: dotted;
+		width: 750px;
+	}
+	h2, label, input[type=button] {margin-left: 10px; }
+	
+	#donnees { background-color: #F4CFD7; }
+	
+	#valeurs { background-color: #CFF4EF; }

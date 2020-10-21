@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/serie7.js"></script>
+	<title>Stockage local HTML5</title>
+</head>
+<body onload="Affiche()">
+	<h1>Stockage local HTML5</h1>
+	<form name=editor>
+		<fieldset id="donnees">
+			<h2>Définissez la donnée à stocker</h2>
+			<p><label>Nom</label> <input type="text" name="name" required="required">
+				<label>Valeur</label> <input type="text" name="data" required="required"></p>
+				<p>
+					<input type="button" value="Lire" onclick="Lit()">
+					<input type="button" value="Enregistrer" onclick="Enregistre()">
+					<input type="button" value="Effacer" onclick="Efface()">
+					<input type="button" value="Tout effacer" onclick="EffaceTout()">
+				</p>
+			</fieldset>
+			<br><br>
+			<fieldset id="valeurs">
+				<h2>Données stockées</h2>
+				<table id="NomValeur" border="1"></table>
+			</fielset>
+		</form>
+	</body>
+</html>

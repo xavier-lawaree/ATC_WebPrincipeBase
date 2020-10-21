@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Volkswagen</title>
+	<link rel="stylesheet" href="page.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container-fluid">
+		<header id="header" class="header row">
+			<H1 class="col-lg-12">
+				DG Motor SPRL<br><br>
+			</H1>
+			<ul class="col-lg-12">
+				<li><a href="page1.htm" >Acceuil</a></li>
+				<li><a href="page2.htm" >Showroom</a></li>
+			</ul>
+
+		</header>
+		<div class="row">
+			
+
+			<aside class="aside col-lg-2">
+				<h2>L'univers Volkswagen</h2>
+				<ul>
+					<li>Histoire</li>
+					<li>News</li>
+					<li>MyVolkswagen</li>
+				</ul>
+			</aside>
+			<section class="col-lg-5">
+				<h2>Nous contacter</h2>
+				<article>
+					<h3>Formulaire de contact</h3>
+					<p>
+						<form action="http://10.128.138.70/formulaire/test.php" method="post" accept-charset="utf-8">
+							<p> 
+								*Nom :  </br>
+								<input type="text" name="NOM" value="" placeholder="Nom, Prénom" size="50" required>
+							</p>
+							<p> *Email : </br>
+								<input type="email" name="EMAIL" value="" placeholder="Email@monfournisseur.com" size="50" required>
+							</p>
+							<p> Je suis :</BR>
+								<select name="JESUIS" ="50">
+									<option value="PARTI">Particulier</option>
+									<option value="PROF">Professionnel</option>
+								</select>
+							</p>
+
+							<p> *Votre messsage:</br>
+								<textarea name="MESSAGE" cols="70" rows="10" required></textarea>
+
+							</p>
+							<p>
+								<input type="checkbox" name="NEWSLETTER" value="1">
+								Je veux recevoir la newsletter
+							</p>
+
+							<P>
+								<input type="submit" name="" value="Envoyer">
+							</P>
+						</form>
+					</p> 
+				</article>
+			</section>
+			<section class="col-lg-5">
+				<h2>Coordonnées</h2>
+				<article>
+					<h3>Par courrier</h3>
+					<p>
+						DG Motor s.p.r.l.<br>
+						Avenue Du Marquis, 1 (Zon.Ind)<br>
+						6220 Fleurus 
+					</p>
+				</article>		
+				<article>
+					<h3>Le showroom</h3>
+					<p>
+						<table class="TBHOUV">
+							<caption>Heures d'ouverture</caption>
+							<tr>
+								<td class="invisible"></td>
+								<td class="TitreTB">Lundi</td>
+								<td class="TitreTB">Mardi</td>
+								<td class="TitreTB">Mercredi</td>
+								<td class="TitreTB">Jeudi</td>
+								<td class="TitreTB">Vendredi</td>
+								<td class="TitreTB">Samedi</td>
+								<td class="TitreTB">Dimanche</td>
+							</tr>
+							<tr>
+								<td class="TitreTB">Matin</td>
+								<td >9h30 à 12h30</td>
+								<td >9h30 à 12h30</td>
+								<td rowspan="2" class="CellGrise">Fermé</td>
+								<td >9h30 à 12h30</td>
+								<td >9h30 à 12h30</td>
+								<td colspan="2" rowspan="2" class="CellGrise">Fermé</td>
+							</tr>
+							<tr>
+								<td class="TitreTB">Après-midi</td>
+								<td >13h30 à 17h30</td>
+								<td >13h30 à 17h30</td>
+								<td >13h30 à 17h30</td>
+								<td >13h30 à 17h30</td>
+							</tr>
+						</table>
+					</p>
+
+				</article>		
+			</section>
+		</div>
+		<div class="row">
+			<footer class="col-lg-12" >
+				Par Lawarée Xavier  <a href="#header" >Haut de page</a>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

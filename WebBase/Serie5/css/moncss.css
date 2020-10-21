@@ -1,0 +1,195 @@
+
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+h1{
+    /*background-color: blue;*/
+    font-size: 10;
+    text-align: center;
+    vertical-align: center
+}
+
+body {
+    font: 100% Lucida Sans, Verdana;
+
+
+}
+
+header li {
+ list-style-type: none;
+ display: inline-block;
+
+ }
+
+
+
+header{
+    border: 1px solid #d4d4d4; 
+    background-color: #f1f1f1; 
+    text-align: center; 
+    padding: 10px; 
+    font-size: 70%; 
+    line-height: 14px;
+    border-radius: 4px; margin: 4px;
+    background-image: url("../images/html5.png"), url("../images/bg.jpg");
+    background-position: right bottom , center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px, 100%;
+}
+
+aside{
+    margin: 10px;
+    background-color: #32a4e7; 
+    color: #ffffff; 
+    padding: 10px; 
+    width: 170px; 
+    bottom: 0; 
+    top: 0; 
+    right: 0;
+    position: fixed;
+    margin-bottom: 60px;
+    margin-top: 220px;
+    border-radius: 5px;
+
+}
+@media (min-width: 1050px) {
+    aside{
+        margin: 10px;
+        background-color: #32a4e7;
+        color: #ffffff;
+        padding: 10px;
+        width: 170px;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        height: 69%;
+        position: fixed;
+        margin-bottom: 60px;
+        margin-top: 220px;
+        border-radius: 5px;
+
+    }
+}
+
+header fieldset{
+    margin: 10px;
+    width: 150px; 
+    height: 90px;
+    top: 0; 
+    right: 0; 
+    position: absolute;
+    border: hidden;
+    border-radius: 5px;
+}
+
+.logoHtml5{
+    background-image: url("../images/html5-logo.jpg");
+    background-position: center;
+    z-index: 10px;
+}
+.FormLoginFields{
+    width: 150px;
+    height: 15px;
+
+}
+.FormLoginButon{
+    width: 154px;
+    height: 20px;
+}
+
+.login{
+     margin: 10px;
+    background-color: #32a4e7; 
+    color: #ffffff; 
+    padding: 10px; 
+    width: 150px; 
+    bottom: 0; 
+    top: 0; 
+    right: 0; 
+    position: fixed;
+    margin-bottom: 150px;
+    margin-top: 210px;
+    
+    border-radius: 5px;
+}
+
+
+#TitreAside{
+    background-color: blue;
+    font-size: 10;
+    text-align: center;
+    vertical-align: center
+}
+
+.Titre2Section{
+    background-color: gray;
+    font-size: 5;
+    text-align: center;
+    vertical-align: center
+}
+
+aside li{
+    color: rgb(0,0,255);
+    list-style-type: none;
+}
+
+footer{
+    border: 1px solid #d4d4d4; 
+    background-color: #f1f1f1; 
+    text-align: center; 
+    padding: 10px; 
+    font-size: 70%; 
+    line-height: 14px;
+}
+
+
+section {
+    margin-right: 200px
+}
+
+article[class="bgLightning"]{
+
+    background-color: #F1F1F1;
+}
+
+article{
+    background-color: lightgrey;
+}
+
+nav {
+    
+    float: center;
+    border-top: groove;
+    border-bottom: groove;
+
+}
+#table1{
+    width: 600px;
+    margin: auto;
+}
+table {
+    margin:auto;
+    border: 2px solid black;
+    background-color: white;
+}
+td{
+    border: 1px solid black;
+}
+
+.autoColor tr:nth-child(odd){
+    background-color: #BEBEBE;
+}
+#table2 th, .schedule{
+    background-color: #72C7DC;
+}
+.closed{
+    background-color: grey;
+}
+

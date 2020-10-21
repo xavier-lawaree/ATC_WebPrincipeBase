@@ -1,0 +1,225 @@
+body{
+	font-family: Arial,Helvetica,sans-serif;
+}
+.header{
+	background-image: url("../images/vw.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+	border: 1px solid rgb(34, 116, 172);
+	border-radius: 5px;
+	text-align: center;
+}
+
+.header li {
+	list-style-type: none;
+	display: inline-block;
+	color:rgb(255,255,255);
+	text-align: center;
+	background-color: rgb(34, 116, 172);
+
+ }
+
+.header li a{
+	color:rgb(255,255,255);
+	width: 200px;
+}
+
+ .header ul {
+	 text-align: center;
+	 border-color: rgb(223,102,47);
+ }
+
+ nav{
+ 	padding-top: 20px;
+ }
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+section{
+	margin-top:10px;
+	margin-left: 210px;
+	border: 1px solid rgb(34, 116, 172);
+	border-radius: 5px;
+}
+
+
+ .aside{
+ 	left:7px;
+ 	top:171px;
+ 	width: 200px;
+ 	bottom: 55px;
+ 	position: fixed;
+ 	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	border-color: rgb(34, 116, 172);
+ }
+
+ footer{
+    text-align: center; 
+    padding: 10px; 
+    font-size: 70%; 
+    line-height: 14px;
+    margin-top: 10px;
+    border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	border-color: rgb(34, 116, 172);
+}
+
+h1{
+	color: rgb(34, 116, 172);
+}
+
+h2{
+	color:rgb(255,255,255);
+	text-align: center;
+	background-color: rgb(34, 116, 172);
+}
+
+
+.TableHorOuv {
+	border: 1px solid #d4d4d4;
+}
+.TitreTB{
+	color:rgb(255,255,255);
+	text-align: center;
+	/*background-color: rgb(223,102,47);*/
+background-color: rgb(34, 116, 172);
+}
+.CellGrise{
+	background-color: rgb(125,125,125)	;
+	text-align: center;
+}
+.TableHorOuv td {
+	width: 50px;	
+}
+
+/** Media query **/
+
+@media screen and (min-width:375px) and( max-width: 760px){
+input{
+	max-width: 320px;
+}
+textarea{
+	max-width: 320px;
+}
+
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 50%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	td:nth-of-type(2):before { content: "Lundi"; }
+	td:nth-of-type(3):before { content: "Mardi"; }
+	td:nth-of-type(4):before { content: "Mercredi"; }
+	td:nth-of-type(5):before { content: "Jeudi"; }
+	td:nth-of-type(6):before { content: "Vendredi"; }
+	td:nth-of-type(7):before { content: "Samedi"; }
+	td:nth-of-type(8):before { content: "Dimanche"; }
+}
+/** medias query **/
+@media screen and (max-width: 667px){
+form input:not([type="checkbox"]){
+	width:93%;
+	max-width: 320px;
+}
+textarea{
+	width:95%;
+}
+
+.submit 
+{
+	max-width: 100px !important;
+}
+.aside{
+ 	left:7px;
+ 	top:171px;
+ 	width: 150px;
+ 	bottom: 55px;
+ 	position: fixed;
+ 	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	border-color: rgb(34, 116, 172);
+ }
+.aside li{
+	margin-top: -2px;
+}
+.aside h2{
+	margin-top: 10px;
+}
+
+ section{
+	margin-top:10px;
+	margin-left: 160px;
+	border: 1px solid rgb(34, 116, 172);
+	border-radius: 5px;
+}
+ 	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	caption{
+		text-align: center;
+	}
+thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 50%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	td:nth-of-type(2):before { content: "Lundi"; }
+	td:nth-of-type(3):before { content: "Mardi"; }
+	td:nth-of-type(4):before { content: "Mercredi"; }
+	td:nth-of-type(5):before { content: "Jeudi"; }
+	td:nth-of-type(6):before { content: "Vendredi"; }
+	td:nth-of-type(7):before { content: "Samedi"; }
+	td:nth-of-type(8):before { content: "Dimanche"; }
+}
+@media screen and (max-width: 790px){
+	textarea{
+		width : 95%;
+	}
+

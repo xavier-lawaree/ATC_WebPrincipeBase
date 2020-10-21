@@ -1,0 +1,92 @@
+body{
+	font-family: Arial,Helvetica,sans-serif;
+}
+.header{
+	background-image: url("images/vw.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+	border: 1px solid rgb(34, 116, 172);
+	border-radius: 5px;
+	text-align: center;
+}
+
+.header li {
+	list-style-type: none;
+	display: inline-block;
+	color:rgb(255,255,255);
+	text-align: center;
+	background-color: rgb(34, 116, 172);
+
+ }
+
+.header li a{
+	color:rgb(255,255,255);
+	/*width: 200px;*/
+}
+
+ .header ul {
+	 text-align: center;
+	 border-color: rgb(223,102,47);
+ }
+
+
+section{
+	/*margin-top:10px;
+	margin-left: 210px;*/
+	border: 1px solid rgb(34, 116, 172);
+	border-radius: 5px;
+}
+
+
+ .aside{
+ 	/*left:7px;
+ 	top:171px;
+ 	width: 200px;
+ 	bottom: 55px;
+ 	position: fixed;*/
+ 	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	border-color: rgb(34, 116, 172);
+ }
+
+ footer{
+    text-align: center; 
+    padding: 10px; 
+    font-size: 70%; 
+    line-height: 14px;
+    margin-top: 10px;
+    border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	border-color: rgb(34, 116, 172);
+}
+
+h1{
+	color: rgb(34, 116, 172);
+}
+
+h2{
+	color:rgb(255,255,255);
+	text-align: center;
+	background-color: rgb(34, 116, 172);
+}
+
+
+.TBHOUV {
+	border: 1px solid #d4d4d4;
+}
+.TitreTB{
+	color:rgb(255,255,255);
+	text-align: center;
+	/*background-color: rgb(223,102,47);*/
+background-color: rgb(34, 116, 172);
+}
+.CellGrise{
+	background-color: rgb(125,125,125)	;
+	text-align: center;
+
+}
+.TBHOUV td {
+	
+	width: 50px;
+	
+}

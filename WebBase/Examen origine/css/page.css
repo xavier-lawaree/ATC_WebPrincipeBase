@@ -1,0 +1,196 @@
+header{
+	background-color: rgb(242,242,242);
+	background-image: url("../images/logo-ATC.png"), url("../images/fond-entete-site.jpg");
+	background-repeat: no-repeat;
+	background-position: right,center;
+	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	text-align: center;
+	/*height: 100px;*/
+
+}
+.red{
+	color: red;
+}
+header li {
+ list-style-type: none;
+ display: inline-block;
+ }
+
+ header ul {
+ text-align: center;
+ border-color: rgb(223,102,47);
+
+ }
+nav a { 
+	color: #FFF;
+} /* CSS link color (white) */
+nav a:hover {
+ color: #35AD1B; 
+ } /* CSS link hover (green) */
+
+section{
+	margin-top:10px;
+	margin-right: 310px;
+	background-color: rgb(242,242,242);
+	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+}
+
+
+ .aside{
+ 	right:7px;
+ 	top:175px;
+ 	width: 300px;
+ 	bottom: 55px;
+ 	font-size: 74.5%; 
+ 	position: fixed;
+ 	background-color: rgb(242,242,242);
+ 	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+ }
+
+ footer{
+    border: 1px solid #d4d4d4; 
+    background-color: #f1f1f1; 
+    text-align: center; 
+    padding: 10px; 
+    font-size: 70%; 
+    line-height: 14px;
+    margin-top: 10px;
+    border: 1px solid #d4d4d4;
+	border-radius: 5px;
+}
+
+h1{
+	color: rgb(223,102,47)
+}
+
+h2{
+	color:rgb(255,255,255);
+	text-align: center;
+	background-color: rgb(223,102,47);
+}
+
+
+.TBHOUV {
+	border: 1px solid #d4d4d4;
+}
+.TitreTB{
+	color:rgb(255,255,255);
+	text-align: center;
+	background-color: rgb(223,102,47);
+}
+.CellGrise{
+	background-color: rgb(125,125,125)	;
+	text-align: center;
+
+}
+.TBHOUV td {
+	
+	width: 50px;
+	
+}
+
+@media screen and (max-width: 1023px){
+	textarea{
+		max-width: 98%;
+		} 
+	input{
+			max-width: 97%;
+		}
+} 
+
+@media screen and (max-width: 760px){
+
+h1{
+	width: 70%;
+	font-size :25px;
+}
+nav li{
+	padding-top: 35px;
+}
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 50%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	td:nth-of-type(2):before { content: "Lundi"; }
+	td:nth-of-type(3):before { content: "Mardi"; }
+	td:nth-of-type(4):before { content: "Mercredi"; }
+	td:nth-of-type(5):before { content: "Jeudi"; }
+	td:nth-of-type(6):before { content: "Vendredi"; }
+	td:nth-of-type(7):before { content: "Samedi Dimanche";}
+	/*td:nth-of-type(8):before { content: "Dimanche"; }*/
+}
+@media screen and (max-width: 684px){
+.aside{
+	top: 200px; 
+	font-size: 70%: 
+}
+h1{
+	width: 70%;
+	font-size :25px;
+}
+nav li{
+	padding-top: 10px;
+}
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 50%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	td:nth-of-type(2):before { content: "Lundi"; }
+	td:nth-of-type(3):before { content: "Mardi"; }
+	td:nth-of-type(4):before { content: "Mercredi"; }
+	td:nth-of-type(5):before { content: "Jeudi"; }
+	td:nth-of-type(6):before { content: "Vendredi"; }
+	td:nth-of-type(7):before { content: "Samedi Dimanche";}
+	/*td:nth-of-type(8):before { content: "Dimanche"; }*/
+}
