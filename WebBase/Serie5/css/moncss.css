@@ -1,81 +1,79 @@
+body {
+    font: 100% Lucida Sans, Verdana;
+}
 
+/*
+    couleur du lien et soulignement
+ */
 a {
     color: #000000;
     text-decoration: underline;
 }
 
+/*
+    survol lien
+*/
 a:hover {
     text-decoration: none;
 }
 
+/*
+    ----- HEADER ------
+*/
 
-h1{
+/*
+    titre dans le header
+*/
+header h1{
     /*background-color: blue;*/
-    font-size: 10;
+    font-size: 24pt;
     text-align: center;
     vertical-align: center
 }
-
-body {
-    font: 100% Lucida Sans, Verdana;
-
-
+/*
+    alignement de l'image dans le header
+*/
+header img{
+    align-self: center;
 }
 
+/*
+    lien du menu (li)
+*/
 header li {
  list-style-type: none;
  display: inline-block;
 
  }
+/*
+    navigation
+*/
+nav {
 
+    float: center;
+    border-top: groove;
+    border-bottom: groove;
 
-
+}
+/*
+    definition du header
+    ajout des images, display, taille....
+*/
 header{
-    border: 1px solid #d4d4d4; 
+    border: 1px solid #d4d4d4;
     background-color: #f1f1f1; 
-    text-align: center; 
-    padding: 10px; 
-    font-size: 70%; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  /*  padding: 10px;
+    font-size: 70%;
     line-height: 14px;
-    border-radius: 4px; margin: 4px;
+    border-radius: 4px; margin: 4px;*/
     background-image: url("../images/html5.png"), url("../images/bg.jpg");
     background-position: right bottom , center;
     background-repeat: no-repeat;
     background-size: 100px 100px, 100%;
-}
 
-aside{
-    margin: 10px;
-    background-color: #32a4e7; 
-    color: #ffffff; 
-    padding: 10px; 
-    width: 170px; 
-    bottom: 0; 
-    top: 0; 
-    right: 0;
-    position: fixed;
-    margin-bottom: 60px;
-    margin-top: 220px;
-    border-radius: 5px;
-
-}
-@media (min-width: 1050px) {
-    aside{
-        margin: 10px;
-        background-color: #32a4e7;
-        color: #ffffff;
-        padding: 10px;
-        width: 170px;
-        bottom: 0;
-        top: 0;
-        right: 0;
-        height: 69%;
-        position: fixed;
-        margin-bottom: 60px;
-        margin-top: 220px;
-        border-radius: 5px;
-
-    }
 }
 
 header fieldset{
@@ -88,24 +86,91 @@ header fieldset{
     border: hidden;
     border-radius: 5px;
 }
+/*
+    ------ ASIDE ------
+*/
+/*
+    définition de aside
+*/
+aside{
+    margin: 10px;
+    background-color: #32a4e7;
+    color: #ffffff;
+    padding: 10px;
+    width: 10.5em;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    position: fixed;
+    margin-bottom: 3.9em;
+    margin-top: 15.9em;
+    border-radius: 5px;
 
-.logoHtml5{
-    background-image: url("../images/html5-logo.jpg");
-    background-position: center;
-    z-index: 10px;
 }
+
+#TitreAside{
+    background-color: blue;
+    font-size: 16pt;
+    text-align: center;
+    vertical-align: center
+}
+
+aside li{
+    color: rgb(0,0,255);
+    list-style-type: none;
+}
+
+/*
+    definition de aside pour résolution sup 1440 px
+*/
+@media (min-width: 1440px) {
+    aside{
+        margin: 10px;
+        background-color: #32a4e7;
+        color: #ffffff;
+        padding: 10px;
+        width: 10.5em;
+        height: 35rem;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        position: fixed;
+        margin-bottom: 3.9em;
+        margin-top: 15.9em;
+        border-radius: 5px;
+
+    }
+}
+
+/*
+    passage du logo en arriere plan
+*/
+.logoHtml5{
+    z-index: 10;
+}
+/*
+    ----- formulaire ------
+*/
+/**
+    login fields
+ */
 .FormLoginFields{
     width: 150px;
     height: 15px;
 
 }
-.FormLoginButon{
+/*
+    bouton
+*/
+.FormLoginButton{
     width: 154px;
     height: 20px;
 }
-
+/*
+    login
+*/
 .login{
-     margin: 10px;
+    margin: 10px;
     background-color: #32a4e7; 
     color: #ffffff; 
     padding: 10px; 
@@ -120,12 +185,20 @@ header fieldset{
     border-radius: 5px;
 }
 
+footer{
+    border: 1px solid #d4d4d4; 
+    background-color: #f1f1f1; 
+    text-align: center; 
+    padding: 10px; 
+    font-size: 70%; 
+    line-height: 14px;
+}
+/*
+    ----- SECTION ------
+*/
 
-#TitreAside{
-    background-color: blue;
-    font-size: 10;
-    text-align: center;
-    vertical-align: center
+section {
+    margin-right: 200px
 }
 
 .Titre2Section{
@@ -135,25 +208,9 @@ header fieldset{
     vertical-align: center
 }
 
-aside li{
-    color: rgb(0,0,255);
-    list-style-type: none;
-}
-
-footer{
-    border: 1px solid #d4d4d4; 
-    background-color: #f1f1f1; 
-    text-align: center; 
-    padding: 10px; 
-    font-size: 70%; 
-    line-height: 14px;
-}
-
-
-section {
-    margin-right: 200px
-}
-
+/*
+    ----- ARTICLE ------
+*/
 article[class="bgLightning"]{
 
     background-color: #F1F1F1;
@@ -163,13 +220,11 @@ article{
     background-color: lightgrey;
 }
 
-nav {
-    
-    float: center;
-    border-top: groove;
-    border-bottom: groove;
 
-}
+
+/*
+   ------ TABLES ------
+*/
 #table1{
     width: 600px;
     margin: auto;
