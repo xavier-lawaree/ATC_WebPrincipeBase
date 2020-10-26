@@ -130,6 +130,24 @@ aside li{
         color: #ffffff;
         padding: 10px;
         width: 10.5em;
+        height: 24rem;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        position: fixed;
+        margin-bottom: 5rem;
+        margin-top: 15.5rem;
+        border-radius: 5px;
+
+    }
+}
+@media (min-width: 1920px) {
+    aside{
+        margin: 10px;
+        background-color: #32a4e7;
+        color: #ffffff;
+        padding: 10px;
+        width: 10.5em;
         height: 39.5rem;
         bottom: 0;
         top: 0;
@@ -218,6 +236,7 @@ article[class="bgLightning"]{
 
 article{
     background-color: lightgrey;
+    min-width: 642px;
 }
 
 
