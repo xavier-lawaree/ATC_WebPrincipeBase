@@ -44,7 +44,9 @@ header, section, aside, footer{
 	color:rgb(255,255,255);
 	width: 200px;
 }
-
+.header li a:hover{
+	text-decoration: none;
+}
 /*
 	NAV
  */
@@ -74,7 +76,6 @@ section{
  	width: 200px;
  	bottom: 55px;
  	position: fixed;
- 	border: 1px solid #d4d4d4;
 }
 
 /**
@@ -86,7 +87,6 @@ footer{
 	font-size: 70%;
 	line-height: 14px;
 	margin-top: 10px;
-	border: 1px solid #d4d4d4;
 }
 
 /**
