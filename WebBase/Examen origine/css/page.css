@@ -5,7 +5,9 @@
 .red{
     color: red;
 }
-
+.invisible{
+    background-color: transparent;
+}
 h1{
     color: rgb(223,102,47)
 }
