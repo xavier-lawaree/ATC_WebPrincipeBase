@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Mon site WEB</title>
+	<link rel="stylesheet" href="css/moncss.css">
+</head>
+<body>
+	<header id="header" class="">
+		<h1>Ma Page Web HTML5</h1>
+		<img src="images/html5-logo.jpg" alt="html5-logo"> 
+		<nav>
+			<ul>
+				<li> <a href="Exe_recap1.html" title="Page1 survol">Page 1</a> </li>
+				<li> <a href="Exe_recap2.html" title="Page2 survol">Page 2</a> </li>
+			</ul>
+		</nav>
+
+		<form  action = "#" method="post" accept-charset="utf-8">
+
+				<fieldset>
+	
+					<input type="text" name="ID" placeholder="Identifiant"  maxlength="30" class="FormLoginFields"  required/>
+						<!--<label for="pseudo" class="FormLoginFields">Mot de passe</label>-->
+					<input type="password"   name="PWD" value="" placeholder="Mot de passe" class="FormLoginFields" required/>
+					<input type="submit" name="" value="S'identifier" class="FormLoginButton">
+				
+				</fieldset>
+				
+			</form>
+		
+	</header><!-- /header -->
+	
+	<aside>
+		<p><div id="TitreAside"> Index </div>
+			<ul>
+				<li>
+					<a href="#S1">Section1</a>
+					<ul>
+						<li><a href="#S1A1">Article1</a></li>
+						<li><a href="#S1A2">Article2</a></li>
+					</ul>
+
+				</li>
+				<li>
+					<a href="#S2">Section2</a>
+					<ul>
+						<li><a href="#S2A1">Article1</a></li>
+						<li><a href="#S2A2">Article2</a></li>
+					</ul>
+
+				</li>
+			</ul>
+		</p>
+	</aside>
+
+	<section id ="S1">
+		<h2 class="Titre2Section">Section 1</h2>
+		<article>
+			<form action = "https://xl-promsocatc.alwaysdata.net/formulaire/serie8/formulaire.php" method="post" accept-charset="utf-8">
+				<fieldset>
+					<legend>Votre identité</legend>
+
+					<p>
+
+						<label for="NOM">Nom :</label>
+
+						<input type="text" name="NOM" id="NOM" placeholder="Entrez ici votre nom" size="30" maxlength="10"  required/>
+					</p>
+					<p>
+						<label for="EMAIL">Email :</label>
+					<input type="email" name="EMAIL" id="EMAIL" value="" placeholder="Entrez ici votre Email" required/>
+					</p>
+				</fieldset>
+				<fieldset>
+					<legend>Vos préférences</legend>
+					<p>
+						Cochez les aliments que vous aimez manger :<br />
+						<input type="checkbox" name="PREFERENCES[]" id="frites" value="frites" /> <label for="frites">Frites</label><br />
+						<input type="checkbox" name="PREFERENCES[]" id="steak" value="steak" /> <label for="steak">Steak haché</label><br />
+						<input type="checkbox" name="PREFERENCES[]" id="epinards" value="epinards"  /> <label for="epinards">Epinards</label><br />
+						<input type="checkbox" name="PREFERENCES[]" id="huitres" value="huitres" /> <label for="huitres">Huitres</label>
+					</p>
+					<p>
+						<p>
+							Veuillez indiquer la tranche d'âge dans laquelle vous vous situez :<br />
+							<input type="radio" name="AGE" value="moins 15 ans" id="moins15" /> <label for="moins15">Moins de 15 ans</label><br />
+							<input type="radio" name="AGE" value="entre 15-25 ans" id="medium15-25" /> <label for="medium15-25">15-25 ans</label><br />
+							<input type="radio" name="AGE" value="entre 25-40 ans" id="medium25-40" checked="checked" /> <label for="medium25-40">25-40 ans</label><br />
+							<input type="radio" name="AGE" value="plus de 40 ans" id="plus40" /> <label for="plus40">Encore plus vieux que ça ?!</label>
+						</p>
+						<p>
+							Sur quel continent habitez-vous ?<br />
+							<input type="radio" name="CONTINENT" value="europeen" id="europe" checked="checked" /> <label for="europe">Europe</label><br />
+							<input type="radio" name="CONTINENT" value="africain" id="afrique" /> <label for="afrique">Afrique</label><br />
+							<input type="radio" name="CONTINENT" value="asiatique" id="asie" /> <label for="asie">Asie</label><br />
+							<input type="radio" name="CONTINENT" value="americain" id="amerique" /> <label for="amerique">Amérique</label><br />
+							<input type="radio" name="CONTINENT" value="australien" id="australie" /> <label for="australie">Australie</label>
+						</p>
+					</p>
+					<p>
+						<label for="PAYS">Dans quel pays habitez-vous ?</label><br />
+						<select name="PAYS" id="PAYS">
+							<optgroup label="Europe">
+								<option value="belgique" selected="selected">Belgique</option>
+								<option value="france">France</option>
+								<option value="espagne">Espagne</option>
+								<option value="italie">Italie</option>
+								<option value="royaume-uni">Royaume-Uni</option>
+							</optgroup>
+							<optgroup label="Amérique">
+								<option value="canada">Canada</option>
+								<option value="etats-unis">Etats-Unis</option>
+							</optgroup>
+							<optgroup label="Asie">
+								<option value="chine">Chine</option>
+								<option value="japon">Japon</option>
+							</optgroup>
+						</select>
+					</p>
+				</fieldset>
+				<p><input type="submit" name="" value="Envoyer"> </p>
+			</form>
+		</article>
+
+
+
+
+
+		<article id = "S1A1">
+			<h3>Article 1</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
+		</article>
+
+		<article id = "S1A2">
+			<h3>Article 2</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
+		</article>
+
+	</section>
+
+	<section id ="S2">
+		<h2 class="Titre2Section">Section 2</h2>
+		<article id = "S2A1">
+			<h3>Article 1</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
+		</article>
+
+		<article id = "S2A2">
+			<h3>Article 2</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
+		</article>
+
+	</section>
+
+	<footer>Créé par Xavier <a href="#header"  >Haut page</a></footer>
+	
+</body>
+</html>
