@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mon site WEB</title>
+    <link rel="stylesheet" href="css/moncss.css">
+</head>
+<body>
+<header id="header" class="bordure">
+    <h1>DG Motor SPRL</h1>
+    <img src="images/vw.jpg" alt="vw-logo">
+    <nav>
+        <ul>
+            <li> <a class="lienblancsurbleu" href="Page1.html" title="Accueil">Accueil</a> </li>
+            <li> <a class="lienblancsurbleu" href="Page2.html" title="Showroom">Showroom</a> </li>
+        </ul>
+    </nav>
+</header>
+<aside class="bordure">
+    <p></p><p class="titreblancsurbleu"> L'Univers Volkswagen </p>
+    <ul>
+        <li>Histoire</li>
+        <li>News</li>
+        <li>MyVolkswagen</li>
+    </ul>
+</aside>
+<section class="bordure">
+    <h2 class="titreblancsurbleu">Nous contacter</h2>
+    <form method="get" action="https://xl-promsocatc.alwaysdata.net/formulaire/formulaire.php">
+        <label for="NOM"> *Nom :</label>
+        <br/>
+        <input type="text" name="NOM" id="NOM"/>
+        <br/>
+        <br/>
+        <label for="EMAIL"> *E-mail :</label>
+        <br/>
+        <input type="text" name="EMAIL" id="EMAIL"/>
+        <br/>
+        <br/>
+        <label for="situation">Je suis:</label>
+        <br/>
+        <select name="situation" id="situation">
+            <option value="PARTIC" selected="selected">Particulier</option>
+            <option value="PRO" selected="selected">Professionnel</option>
+        </select>
+        <br/>
+        <br/>
+        <label for="MESSAGE">*Votre message:</label>
+        <br/>
+        <textarea name="MESSAGE" id="MESSAGE" cols="80" rows="10"></textarea>
+        <br/>
+        <br/>
+        <input type="checkbox" name="NEWSLETTER" id="NEWSLETTER" />
+        <label for="NEWSLETTER">
+            Je veux recevoir la newsletter
+        </label>
+    </form>
+</section>
+<section class="bordure">
+    <h3 class="titreblancsurbleu">Coordonées</h3>
+    <article>
+        <p class="titrenoir">Par courrier</p>
+        <p>DG Motor s.p.r.l<br>Avenue Du Marquis, 1 (Zon.Ind)<br>6220 Fleurus</p>
+        <p class="titrenoir">Le showroom</p>
+    </article>
+    <article>
+        <div style="overflow-x:auto;">
+        <table>
+            <caption>Heures d'ouverture</caption>
+            <thead class="schedule">
+            <tr>
+                <th></th>
+                <th class="blancsurbleu">Lundi</th>
+                <th class="blancsurbleu">Mardi</th>
+                <th class="blancsurbleu">Mercredi</th>
+                <th class="blancsurbleu">Jeudi</th>
+                <th class="blancsurbleu">Vendredi</th>
+                <th class="blancsurbleu">Samedi</th>
+                <th class="blancsurbleu">Dimanche</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="blancsurbleu">Matin</td>
+                <td>9h30 à 12h30</td>
+                <td>9h30 à 12h30</td>
+                <td class="fermé" rowspan="2">Fermé</td>
+                <td>9h30 à 12h30</td>
+                <td>9h30 à 12h30</td>
+                <td class="fermé" rowspan="2" colspan="2">Fermé</td>
+            </tr>
+            <tr>
+                <td class="blancsurbleu">Après-midi</td>
+                <td>13h30 à 17h30</td>
+                <td>13h30 à 17h30</td>
+                <td>13h30 à 17h30</td>
+                <td>13h30 à 17h30</td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+    </article>
+</section>
+<footer class="bordure">Créé par Guillaume Lermoyeux <a href="#header"  >Haut de la page</a></footer>
+</body>
+</html>

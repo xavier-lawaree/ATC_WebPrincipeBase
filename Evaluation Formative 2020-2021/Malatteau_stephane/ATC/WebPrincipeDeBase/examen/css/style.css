@@ -1,0 +1,131 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, aside, section, footer
+{
+    border: 1px solid rgb(34, 116, 172);
+    border-radius: 5px;
+}
+
+/* Header */
+header
+{
+    background-image: url("../images/vw.jpg");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+header h1
+{
+    text-align: center;
+}
+nav
+{
+    text-align: center;
+}
+nav ul
+{
+    list-style-type: none;
+}
+nav li
+{
+    display: inline-block;
+}
+nav a
+{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 116, 172);
+}
+nav a:hover
+{
+    text-decoration: none;
+}
+/* Aside */
+aside
+{
+    position: fixed;
+    left: 7px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    width: 10em;
+    height: 70%;
+}
+/* Section */
+section
+{
+    margin-top: 10px;
+    margin-left: 170px;
+    min-width: 600px;
+}
+section img
+{
+    width: 100%;
+    height: auto;
+}
+/* Footer */
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+footer p
+{
+    padding: 0;
+    margin: 5px 5px 5px 0;
+}
+/* Titres */
+h1
+{
+    color: rgb(34, 116, 172);
+}
+h2, .fondBleu
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 116, 172);
+    text-align: center;
+    margin: 0;
+}
+h3
+{
+    margin-top: 10px;
+}
+/* Formulaire */
+form
+{
+    padding: 10px;
+    text-align: left;
+}
+input[type="text"], input[type="email"], select, textarea
+{
+    margin-bottom: 15px;
+    width: 50%;
+}
+select
+{
+    width: 25%;
+}
+textarea
+{
+    width: 75%;
+}
+input[type="checkbox"]
+{
+    margin-bottom: 15px;
+}
+/* Tableau */
+table
+{
+    width: 50%;
+}
+.ferme
+{
+    background-color: rgb(125,125,125);
+    text-align: center;
+}
+caption
+{
+    font-weight: bold;
+}

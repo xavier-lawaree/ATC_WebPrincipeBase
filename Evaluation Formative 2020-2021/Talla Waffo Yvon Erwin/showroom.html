@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Mon site web</title>
+	<link rel="stylesheet" href="minisiteweb.css">
+</head>
+<body>
+	<header id="header">
+		<h1>DG Motor SPRL</h1>
+		
+		<nav>
+			<ul>
+				<li><a href="minisiteweb.html" title="Acceuil">Acceuil</a></li>
+				<li><a href="showroom.html" title="showrrom">Showroom</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<aside>
+		<p> L'univers Volkswagen</p>
+			<ul>
+				<li> Histoire</li>
+				<li> News</li>
+				<li> MyVolkswagen</li>
+			</ul>
+	</aside>
+	
+	<section>
+		<h2> Nous contacter</h2>
+		
+			<h3>Formulaire de contact</h3>
+                <form   method="post" action="https://xl-promsocatc.alwaysdata.net/formulaire/formulaire.php">
+                  <p >
+                    <ul class="style">
+                        <li><label for="nom">
+                        *Nom
+                     </label>
+                        <input type="pseudo" name="NOM" id="nom" placeholder="Nom,prénom">
+                        </li>
+                        <br>
+                    <li><label for="mail">
+                        *Email :
+                    </label>
+                        <input type="email" name="EMAIL" id="mail" placeholder="Email@monfournisseur.com">
+                    </li>
+                    <br>
+                    <li>
+                        <label for="jesuis">
+                            Je suis:
+                        </label>
+                    <select name="JESUIS" id="jesuis">
+                        <option value="particulier">Particulier</option>
+                        <option value="professionnel">Professionnel</option>
+                    </select>
+                    </li>
+                    <br>
+                    </li>
+                    <li><label for="message">
+                       *Votre message:
+                    </label><br>
+                         <textarea name="MESSAGE" id="message" cols="100" rows="8"></textarea>
+                    </li>
+                    <li>
+                    <input type="checkbox" name="NEWSLETTER" id="newsletter">
+                        <label for="newletter">
+                            Je veux recevoir la newsletter
+                        </label>
+                    </li>
+                    <br>
+                    <li>
+                    <input type="submit" value="Envoyer">
+                    </li>
+                 </p> 
+                </form>	
+	</section>
+    <section>
+        <h2> Coordonées</h2>
+        <article>
+        <h3>Par courrier</h3>
+            <br>
+                <p>
+                <ul class="style">
+                    <li>DG Motor s.p.r.l</li>              
+                    <li>Avenue DYU Marquis, 1(Zon.Ind)</li>
+                    <li>6220 Fleurus</li>
+                </p>
+        </article>
+        <article>
+          <h3> Le showroom</h3>
+            <table>
+                <caption>Heures d'ouverture</caption>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th class="tcolor">Lundi</th>
+                            <th class="tcolor">Mardi</th>
+                            <th class="tcolor">Mercredi</th>
+                            <th class="tcolor">Jeudi</th>
+                            <th class="tcolor">Vendredi</th>
+                            <th class="tcolor">Samedi</th>
+                            <th class="tcolor">Dimanche</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="tcolor">Matin</th>
+                            <td >9h30 à 12h30</td>
+                            <td>9h30 à 12h30</td>
+                            <td class="tcolor2" rowspan=4>Fermé</td>
+                            <td>9h30 à 12h30</td>
+                            <td>9h30 à 12h30</td>
+                            <td class="tcolor2" align="center" rowspan=4 colspan=2>Fermé</td>
+                        </tr>
+                        <tr>
+                            <th class="tcolor" >Après-midi</th>
+                            <td>13h30 à 17h30</td>
+                            <td>13h30 à 17h30</td>                      
+                            <td>13h30 à 17h30</td>
+                            <td>13h30 à 17h30</td>              
+                        </tr>
+                    </tbody>
+            </table>
+        </article>
+        
+    </section>
+	
+</body>
+</html>
+<footer> Par Talla Yvon <a href="#header">Haut de page</a> </footer>

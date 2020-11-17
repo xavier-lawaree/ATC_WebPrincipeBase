@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <h1 id="haut">DG Motor SPRL</h1>
+
+        <img src="./img/vw.jpg" alt="vw">
+       
+        <nav>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="page2.html">Showroom</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+        <aside>
+            <h2>L'univers Volkswagen</h2>
+            <ul>
+                <li><a href="">Histoire</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">MyVolkswagen</a></li>
+    
+            </ul>
+        </aside>
+    
+        <section>
+            <h2>Nous contacter</h2>
+            <form action="post">
+                <label for="pseudo">Votre Nom :</label>
+                <input type="text" name="pseudo" id="pseudo" placeholder="Nom"  required />
+                <br />
+                <label for="pseudo">Votre email :</label>
+                <input type="email" required />
+                <br />
+                <label for="pays">je suis:</label><br />
+                <select name="parti" id="pays">
+                    <option value="particulier">particulier</option>
+                    <option value="societe">Société</option>
+                    <option value="chef">chef</option> 
+                </select>
+                <br />
+                <label for="votremessage">Votre message </label>
+                <textarea name="message" id="votremessage" cols="30" rows="10"></textarea>
+                <br />
+                <input type="radio" name="news" value="news" id="news" /> <label for="news">Je veux recevoir la newletter</label><br />
+                <button>Envoyer</button>
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2>Cordonnées</h2>
+            <h3>Par courrier</h3>
+
+            <address>
+                Dg Morot SPRLavenue du marquis1
+                6220 Fleurus
+            </address>
+            <table>
+
+                <thead>
+                    <th>lundi</th>
+                    <th>Mardi</th>
+                    <th>Mercredi</th>
+                    <th>Jeudi</th>
+                    <th>Vendredi</th>
+                    <th>Samedi</th>
+                    <th>Dimanche</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>matin</td>
+                        <td>9:30-12:13</td>
+                        <td>9:30-12:30</td>
+                        <td class="conge" rowspan="2"></td>
+                        <td>9:30-12:30</td>
+                        <td>9:30-12:30</td>
+                        <td class="conge" rowspan="2"></td>
+                        <td class="conge" rowspan="2"></td> 
+                    </tr>
+
+                    <tr>
+                        <td>après mdid</td>
+                        <td>12:30-17:30</td>
+                        <td>12:30-17:30</td>
+                        <td>12:30-17:30</td>
+                        <td>12:30-17:30</td>   
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    
+    
+    <footer>
+        <p> Par Lawarée xavier <a href="#haut">haut</a></p>
+    </footer>
+</body>
+</html>

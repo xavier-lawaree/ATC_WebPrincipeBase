@@ -1,0 +1,110 @@
+body {
+    font: 100% Arial,Helvetica,sans-serif;
+}
+/*couleur du lien et soulignement*/
+ a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* survol lien*/
+a:hover {
+    text-decoration: none;
+}
+/*----- HEADER ------*/
+
+/* titre dans le header*/
+
+header{ border: 1px solid rgb(34, 116, 172);
+        border-radius: 5px ;
+        text-align: center;
+    }
+
+header h1{
+    
+    font-size: 24pt;
+    vertical-align: center;
+    color:  rgb(34, 116, 172);
+}
+
+#logovw { margin-right: 1500px;
+    position: relative;
+
+}
+
+/*navigation*/
+nav li {
+    list-style-type: none;
+    display: inline;
+    background-color: rgb(34, 116, 172) ;
+    color : white;
+}
+
+/*------ ASIDE ------*/
+/*définition de aside*/
+aside{
+    margin: 10px;
+    padding: 10px;
+    width: 10.5em;
+    bottom: 0;
+    top: 0;
+    left:0;
+    position: fixed;
+    margin-bottom: 3.9em;
+    margin-top: 15.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(34, 116, 172)
+
+}
+aside li { color : black;
+
+}
+
+#univolk {background-color: rgb(34, 116, 172) ;
+        color : white;
+        font-size: 16pt;
+        text-align: center;
+        vertical-align: center
+
+}
+
+/*----- SECTION ------*/
+
+section {
+    margin-left: 200px;
+    border: 1px solid rgb(34, 116, 172);
+    border-radius: 5px ;
+}
+
+h2 {
+    background-color:  rgb(34, 116, 172);
+    color: rgb(255,255,255);
+    font-size: 5;
+    text-align: center;
+    vertical-align: center;
+}
+    
+/*
+   ------ TABLES ------*/
+table{
+    width: 600px;
+    margin: auto;
+    margin-left: 0;
+}
+
+th {background-color:  rgb(34, 116, 172);
+    color: rgb(255,255,255);
+}
+
+.ferme {background-color: rgb(125,125,125);
+        text-align: center;
+        vertical-align: center;
+}
+
+footer{
+   
+    text-align: center;
+    padding: 10px; 
+    font-size: 70%; 
+    line-height: 14px;
+}

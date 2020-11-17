@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>dgmotor2</title>
+	<link rel="stylesheet" href="css/style-exam.css">
+</head>
+<body>
+	<header>
+		<h1 id="hautpage">DG Motor SPRL</h1>
+	<nav>
+		<a href="dgmotor1.html" title="page 1">Accueil</a>
+		<a href="dgmotor2.html" title="page 2">Showroom</a>
+	</nav>
+	</header>
+<section id="S1">
+		<h2>Nous contacter</h2>
+		<aside>
+		<h2>L'univers Volkswagen</h2>
+					<ul>
+						<li>Histoire</li>
+						<li>News</li>
+						<li>MyVolswagen</li>
+					</ul>
+	</aside>
+		<h3>Formulaire de contact</h3>
+
+		<form method="post" action="https://xl-promsocatc.alwaysdata.net/formulaire/formulaire.php">
+				<label for="NOM">*Nom  : <br /></label><input type="text" name="NOM" id="NOM" placeholder="Nom, Prénom" required /><br />
+      <br /><label for="EMAIL">*Email : </label><br />
+      <input type="email" name="EMAIL" id="EMAIL" placeholder="Email@monfournisseur.com" required /><br />
+
+				<br /><label for="JESUIS">Je suis : </label><br />
+       <select name="JESUIS" id="JESUIS">
+           	<option value="PARTIC">Particulier</option>
+           	<option value="PRO">Professionnel</option>
+       </select><br />
+
+				<br /><label for="MESSAGE">*Votre message : </label><br />
+			<textarea name="MESSAGE" id="MESSAGE" required></textarea><br />
+
+			<input type="checkbox" name="NEWSLETTER" value="1"> <label for="NEWSLETTER">Je veux recevoir la newsletter</label><br />
+
+			<input type="submit" class="BoutonEnvoyer" value="Envoyer"><br />
+
+		</form>
+</section>
+<section>
+	<h2>Coordonnées</h2>
+	<article>
+		<h3>Par courrier</h3>
+		<p>DG Motor s.p.r.l.<br />Avenue Du Marquis, 1 (Zon.Ind)<br />6220 Fleurus</p>
+	</article>
+	<article>
+		<h3>Le showroom</h3>
+		<table class="TableauHoraire">
+			<caption>Heures d'ouverture</caption>
+			<tr>
+				<td></td>
+				<th>Lundi</th>
+				<th>Mardi</th>
+				<th>Mercredi</th>
+				<th>Jeudi</th>
+				<th>Vendredi</th>
+				<th>Samedi</th>
+				<th>Dimanche</th>
+			</tr>
+			<tr>
+				<th>Matin</th>
+				<td>9h30 à 12h30</td>
+				<td>9h30 à 12h30</td>
+				<td rowspan="2" class="ferme">Fermé</td>
+				<td>9h30 à 12h30</td>
+				<td>9h30 à 12h30</td>
+				<td rowspan="2" colspan="2" class="ferme">Fermé</td>
+			</tr>
+			<tr>
+				<th>Après-Midi</th>
+				<td>13h30 à 17h30</td>
+				<td>13h30 à 17h30</td>
+				<td>13h30 à 17h30</td>
+				<td>13h30 à 17h30</td>
+			</tr>
+		</table>
+	</article>
+</section>
+<footer>
+		<p>Créer par Elo.<a href="#hautpage">Haut de Page</a></p>
+</footer>
+</body>
+</html>

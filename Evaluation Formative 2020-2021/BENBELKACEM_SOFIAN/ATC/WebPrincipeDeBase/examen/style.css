@@ -1,0 +1,97 @@
+ body {
+    font:100% Arial,Helvetica,sans-serif;
+} 
+
+/*couleur du lien + soulignement
+*/
+a {
+   color: #000000;
+   text-decoration: underline;
+}
+
+/*
+   lors du survol lien
+*/
+a:hover {
+   text-decoration: none;
+}
+
+/* ENTETE*/
+header{
+    border: rgb(34,116,172);
+    border-radius: 5px;
+    display: flex;
+    align-self: center;
+    display: inline-block;
+}
+
+aside {
+    border: rgb(34,116,172);
+    border-radius: 5px;
+    position: fixed;
+    margin-bottom: 3.9em;
+    margin-top: 15.5rem;
+    padding: 11px;
+    width: 11em;
+    float: left;
+}
+
+.S1 {
+    margin-top: 10px;
+}
+ /* PIED */
+
+footer{
+    border: rgb(34,116,172);
+    border-radius: 5px;
+}
+
+/* COULEURS TITRES */
+body h1{
+    color: rgb(34,116,172);
+}
+
+body h2{
+    color:rgb(255, 255, 255);
+    background-color: rgb(34,116,172);
+}
+
+/* Couleur grise quand jour fermé */
+.closed{
+    background-color:rgb(125, 125, 125);
+}
+/* Tablette */
+@media (min-width: 1920px) {
+    aside{
+        margin: 10px;
+        background-color:rgb(255, 255, 255);
+        color: rgb(34,116,172);
+        padding: 10px;
+        width: 10.5em;
+        height: 39.5rem;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        position: fixed;
+        margin-bottom: 5rem;
+        margin-top: 15.5rem;
+        border-radius: 5px;
+
+    }
+/* smartphone */
+    @media (min-width: 480px) {
+        aside{
+            margin: 10px;
+            background-color:rgb(255, 255, 255);
+            color: rgb(34,116,172);
+            padding: 10px;
+            width: 10.5em;
+            height: 39.5rem;
+            bottom: 0;
+            top: 0;
+            right: 0;
+            position: fixed;
+            margin-bottom: 5rem;
+            margin-top: 15.5rem;
+            border-radius: 5px;
+        }

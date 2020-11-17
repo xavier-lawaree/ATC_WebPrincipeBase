@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Showroom</title>
+        <link rel="stylesheet" href="style.css">     
+    </head>
+    <body>
+        <aside>
+            <p>L'univers Volkswagen</p>
+                <ul>
+                    <li><a href="">Histoire</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">MyVolkswagen</a></li>
+                </ul>
+        </aside>
+        <section id="S2">
+            <h3>Formulaire de contact</h3>
+            <form action="https://xl-promsocatc.alwaysdata.net/formulaire/formulaire.php " method="post">
+
+                <label for="nom">*Nom</label>
+                <input type="text" name="Nom" id="nom" placeholder="Nom, Prénom" required> <br></br>
+
+                    <label for="email">*Email</label>
+                    <input type="text" name="email" id="email" placeholder="Email@monfournisseur.com" required> <br></br>
+
+                <select name="type" id="type">
+                    <option value="particulier">Particulier</option>
+                    <option value="professionel">Professionel</option>
+                </select>
+
+                <p>
+                    <label for="ameliorer">Votre message</label> <br></br>
+                    <textarea name="ameliorer" id="ameliorer" cols="30" rows="10">Un message ?</textarea>
+                </p>
+                <label for="newsletter">Je veux recevoir la newsletter</label>
+                 <input type="checkbox" name="newsletter" id="newsletter"> <br></br>
+
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+
+        <section id="S3">
+            <h2>Cordonnées</h2>
+            <article id="S3A1">
+                <h3>Par courrier</h3>
+                <p>
+                    DG Motor s.p.r.l. <br></br>
+                    Avenue Du Marquis, 1 (Zon.Ind) <br></br>
+                    6220 Fleurus
+                </p>
+            </article>
+
+            <article id="S3A2">
+                <h3>Le Showroom</h3>
+                <table id="horaire">
+                    <caption>Horaire d'ouverture</caption>
+                    <thead class="schedule">
+                        <tr>
+                            <th>Heure</th>
+                            <th>Lundi</th>
+                            <th>Mardi</th>
+                            <th>Mercredi</th>
+                            <th>Jeudi</th>
+                            <th>Vendredi</th>
+                            <th>Samedi</th>
+                            <th>Dimanche</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="schedule">Matin</td>
+                            <td>9h30 à 12h30</td>
+                            <td>9h30 à 12h30</td>
+                            <td class="closed" rowspan="2">Fermé</td>
+                            <td>9h30 à 12h30</td>
+                            <td>9h30 à 12h30</td>
+                            <td class="closed" rowspan="2" colspan="2">Fermé</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule">Après-midi</td>
+                            <td>13h30 à 17h30</td>
+                            <td>13h30 à 17h30</td>
+                            <td>13h30 à 17h30</td>
+                            <td>13h30 à 17h30</td>
+                        </tr>                       
+                    </tbody>
+                </table>
+            </article>            
+        </section>
+    <footer>
+        <p> Par Sofiân Benbelkacem Atc informatique <a href="#S2">Haut de page</a></p>
+    </footer>
+</body>
+</html>

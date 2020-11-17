@@ -1,0 +1,74 @@
+body {
+	font: 100% Arial, Helvetica, sans-sherif;
+}
+h1{
+	color: rgb(34,116,172);
+}
+header{
+	border: 1px solid rgb(34,116,172);
+	border-radius: 5px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	background-image: url("../images/vw.jpg");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+}
+aside{
+	margin: 10px;
+	width: 160px;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	position: fixed;
+	margin-bottom: 60px;
+	margin-top: 117px;
+	border: 1px solid rgb(34,116,172);
+	border-radius: 5px;
+}
+section{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	border: 1px solid rgb(34,116,172);
+	border-radius: 5px;
+	margin-left: 180px;
+}
+.imagetaille{
+	width: 100%;
+}
+h2{
+	background-color: rgb(34,116,172);
+	color: white;
+	text-align: center;
+}
+.TableauHoraire{
+	border: 1px solid silver;
+	width: 300px;
+}
+.ferme{
+	background-color: grey;
+}
+th{
+	background-color: rgb(34,116,172);
+	color: white;
+}
+fieldset{
+	border: none;
+	left: 0;
+}
+textarea{
+	width: 550px;
+	height: 150px;
+}
+.BoutonEnvoyer{
+	margin-left: 3px;
+}
+footer{
+	border: 1px solid rgb(34,116,172);
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 12px;
+}

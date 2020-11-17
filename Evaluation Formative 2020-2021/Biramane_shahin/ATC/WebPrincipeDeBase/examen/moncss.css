@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    text-align: center;
+    border: 1px solid rgb(34, 116, 172);
+    border-radius: 5px;
+    color: rgb(34, 116, 172);
+    background-image: url("./textes%20et%20images/vw.jpg");
+    background-position: left, center;
+    background-repeat: no-repeat;
+    background-size: 3%;
+}
+aside{
+    border: 1px solid rgb(34,116,172);
+    border-radius: 5px;
+    color: rgb(34,116,172);
+    position: fixed;
+    align-content: flex-start;
+}aside ul{
+    color: black;
+ }
+section{
+    border: 1px solid rgb(34,116,172);
+    border-radius: 5px;
+    color: rgb(34,116,172);
+    margin-left: 255px;
+    margin-top: 10px;
+}
+footer{
+    border: 1px solid rgb(34,116,172);
+    border-radius: 5px;
+    color: rgb(34,116,172);
+}
+h1{
+    color: rgb(34,116,172);
+}
+h2{
+    color: rgb(255,255,255);
+    background-color: rgb(34,116,172);
+}
+h3{
+    color: black;
+}
+article p{
+    color: black;
+}
+table {
+    background-color: white;
+}
+table caption{
+    color: black;
+}
+td{
+    width: 10px;
+    color: black;
+}
+#table2 th, .schedule{
+    background-color: rgb(34,116,172);
+    color: white;
+}
+.closed{
+    background-color: rgb(125,125,125);
+    text-align: center;
+}
+
+

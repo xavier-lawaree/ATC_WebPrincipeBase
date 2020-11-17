@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Showroom</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header id="header" >
+		<h1>DG Motor SPRL</h1>
+		<nav>
+			<ul>
+				<li> <a href="PageA.html" title="Acceuil">Acceuil</a> </li>
+				<li> <a href="PageB.html" title="Showroom">Showroom</a> </li>
+			</ul>
+		</nav>	
+	</header>
+	<aside>
+		<p><p id="TitreAside">L'univers Volkswagen</p>
+			<ul>
+				<li>Histoire</li>
+				<li>News</li>
+				<li>MyVolkswagen</li>
+			</ul>
+		</p>
+	</aside>
+	<section>
+		<h2 class="Titre2Section">Nous contacter</h2>
+		<article>
+			<h3>Formulaire de contact</h3>
+			<form action = "http://xl-promsocatc.alwaysdata.net/formulaire/formulaire.php" method="post" accept-charset="utf-8">
+					<p>
+						<label for="NOM">*Nom :</label><br>
+						<input type="text" name="NOM" placeholder="Nom, Prénom" size="50" maxlength="20"  required/>
+					</p>
+					<p>
+						<label for="EMAIL">*Email :</label><br>
+						<input type="email" name="EMAIL" placeholder="Entrez ici votre Email" size="50" maxlength="20" required/>
+					</p>
+					<label for="JESUIS">*Nom :</label><br>
+					<select name="JESUIS">
+						<option value="PARTIC" name="PARTIC">Particulier</option>
+						<option value="PRO" name="PRO">Professionel</option>
+					</select>
+					<p>
+						<label for="MESSAGE">*Votre message :</label><br>
+						<textarea type="text" name="MESSAGE" required style="resize: none" rows="20" cols="100"></textarea>
+					</p>
+					<label for="NEWSLETTER">Je veux recevoir la newsletter</label>
+					<input id="newsletter" type="checkbox" name="NEWSLETTER" value="1"> 
+				<p><input type="submit" name="" value="Envoyer"> </p>
+			</form>
+		</article>
+		<article>
+			<h2 class="Titre2Section">Coordonnées</h2>
+			<h3>Par courrier</h3>
+			<p>DG Motor s.p.r.l.</p>
+			<p>Avenue du Marquis, 1 (Zon.Ind)</p>
+			<p>6220 Fleurus</p>
+		</article>
+		<article>
+			<h3>Le showroom</h3>
+			<table id="tableshowroom">
+				<caption>Heures d'ouverture</caption>
+				<thead class="schedule">
+					<tr>
+						<td></td>
+						<th>Lundi</th>
+						<th>Mardi</th>
+						<th>Mercredi</th>
+						<th>Jeudi</th>
+						<th>Vendredi</th>
+						<th>Samedi</th>
+						<th>Dimanche</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th class="mapr">Matin</th>
+						<td>9h30 à 12h30</td>
+						<td>9h30 à 12h30</td>
+						<td class="fermé" rowspan="3">Fermé</td>
+						<td>9h30 à 12h30</td>
+						<td>9h30 à 12h30</td>
+						<td class="fermé" rowspan="2" colspan="2">Fermé</td>
+					</tr>
+					<tr>
+						<th class="mapr">Après-Midi</th>
+						<td>13h30 à 17h30</td>
+						<td>13h30 à 17h30</td>
+						<td>13h30 à 17h30</td>
+						<td>13h30 à 17h30</td>
+					</tr>
+				</tbody>
+			</table>
+		</article>
+	</section>
+	<footer>Créé par Baser Mustafa <a href="#header"  >Haut page</a></footer>
+</body>
+</html>

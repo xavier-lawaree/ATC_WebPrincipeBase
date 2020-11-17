@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+/* ################### Header ######################### */
+
+header {
+    border: 1px solid rgb(34, 116, 172);
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(34, 116, 172);
+}
+
+nav {
+    margin-left: 50%;
+    margin-bottom: 1%;
+}
+nav ul li {
+    display: inline;
+    background-color: rgb(34, 116, 172);
+}
+nav ul li a {
+    color: white;
+    
+}
+
+/* ################## ASID ############################### */
+
+
+h2{
+    background-color:  rgb(34, 116, 172);
+}
+
+aside {
+    border: 1px solid rgb(34, 116, 172);
+    margin-top: 10%;
+    height: 60%;
+    position: fixed;
+}
+
+h2{
+    background-color:rgb(34, 116, 172); 
+    color: white;
+}
+
+aside ul  {
+    padding: 50px;
+    
+}
+
+
+/* ############### section ########################### */
+
+section {
+    
+    border: 1px solid rgb(34, 116, 172);
+    margin-left: 50%;
+}
+section  {
+    margin-top: 10%;
+    
+}
+
+section article img {
+    width: 100%;
+    
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid rgb(34, 116, 172);
+    color: rgb(54, 49, 49);
+    text-align: center;
+    
+}
+/* ##################### page 2 #########################" */
+table
+{
+    border-collapse: collapse;
+}
+th{
+    background-color:rgb(34, 116, 172) ;
+    color: white;
+}
+td:nth-child(1){
+    background-color: rgb(34, 116, 172);
+    color: white;
+}
+.conge {
+    background-color: rgb(146, 143, 143);
+    
+}
+td,th
+{
+    border: 1px solid black;
+}
+form{
+    padding: 10px;
+}
+label,input{
+    margin: 5px;
+   padding: 5px;
+}
+button {
+    margin:5px;
+}
+/* ############################### tablette ################ */
+
+@media screen and (min-width: 800px){
+   
+    section  {
+        margin-top: 10%;
+        margin-right: 5%;
+        margin-left: 25%;
+        
+    }
+}
+
+/* ########################### screen #################### */
+@media screen and (min-width: 1200px){
+   
+    section  {
+        margin-top: 10%;
+        margin-right: 5%;
+        margin-left: 25%;
+        
+    }
+}

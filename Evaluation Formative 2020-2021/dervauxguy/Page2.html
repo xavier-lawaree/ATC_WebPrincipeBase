@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>DG Motor SPRL</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header id="header" >
+		<h1>DG Motor SPRL</h1>
+		<nav>
+			<ul>
+				<li> <a href="Page1.html" title="Page1 survol">Acceuil</a> </li>
+				<li> <a href="Page2.html" title="Page2 survol">Showroom</a> </li>
+			</ul>
+		</nav>
+		
+	</header>
+
+	<aside>
+		<p><p id="TitreAside"> L'univers Volkswagen </p>
+			<ul>
+				<li>Histoire</li>
+				<li>News</li>
+				<li>MyVolkswagen</li>
+			</ul>
+		</p>
+	</aside>
+	<section>
+		<h2 id="actu">Nous contatcter</h2>
+		<article>
+			<h3>Formulaire de contact</h3>
+			<form action="/ma-page-de-traitement" method="post">
+				<div>
+					<label for="name">*Nom :</label>
+					<input type="text" id="name" name="user_name">
+				</div>
+				
+				<div>
+					<label for="mail">*e-mail :</label>
+					<input type="email" id="mail" name="user_mail">
+				</div>
+
+				<div>
+					<label for="msg">*Message :</label>
+					<textarea id="msg" name="user_message"></textarea>
+				</div>
+
+				<div class="button">
+					<button type="submit">Envoyer le message</button>
+				</div>
+			</form>
+		</article>
+	</section>
+	<section>
+		<h2 id="actu">Coordonnées</h2>
+		<article>
+			<h3>Par Courier</h3>
+			<p>DG Motor s.p.r.l.</p>
+			<p>Avenue Du Marquis, 1 (Zon.Ind)</p>
+			<p>6220 Fleurus</p>
+		</article>
+		<article>
+			<h3>Le Showroom</h3>
+			<table id="table">
+				<caption>Heures d'ouverture</caption>
+				<thead class="schedule">
+					<tr>
+						<th></th>
+						<th>Lundi</th>
+						<th>Mardi</th>
+						<th>Mercredi</th>
+						<th>Jeudi</th>
+						<th>Vendredi</th>
+						<th>Samedi</th>
+						<th>Dimanche</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="schedule">Matin</td>
+						<td>9h30 à 12h30</td>
+						<td>9h30 à 12h30</td>
+						<td class="closed" rowspan="2">Fermé</td>
+						<td>9h30 à 12h30</td>
+						<td>9h30 à 12h30</td>
+						<td class="closed" colspan="2" rowspan="2">Fermé</td>
+					
+					</tr>
+					<tr>
+						<td class="schedule">Après-midi</td>
+						<td>13h30 à 17h30</td>
+						<td>13h30 à 17h30</td>
+						
+						<td>13h30 à 17h30</td>
+						<td>13h30 à 17h30</td>
+						
+					</tr>
+				</tbody>
+			</table>
+		</article>
+	</section>
+	
+	<footer>Par DERVAUX Guy<a href="#header" > Haut de page</a></footer>
+	
+</body>
+</html>

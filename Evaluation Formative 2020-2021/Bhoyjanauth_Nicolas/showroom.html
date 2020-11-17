@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>DG Motor SPRL</title>
+	<link rel="stylesheet" href="css/moncss.css">
+	<link rel="icon" type="image/jpg" href="images/vw.jpg">
+</head>
+<body>
+	<header id="header" >
+		<h1>DG Motor SPRL</h1>
+
+		<img src="images/vw.jpg" alt="vw-logo">
+		<nav>
+			<ul>
+				<li> <a href="Page1.html" title="Page1 survol">Acceuil</a> </li>
+				<li> <a href="showroom.html" title="Page2 survol">Showroom</a> </li>
+			</ul>
+		</nav>
+		
+	</header>
+
+	<aside>
+		<p>
+		<p id="TitreAside"> L'univers Volkswagen </p>
+					<ul>
+						<li><a href="">Histoire</a></li>
+						<li><a href="">News</a></li>
+						<li><a href="">MyVolkswagen</a></li>
+					</ul>
+		</p>
+	</aside>
+	
+	<section id ="Nous contacter">
+		
+		<h2 class="Section_Actualité">Nous contacter</h2>
+		
+		
+		<article id = "Formulaire">
+
+		<form method="post" action="https://xl-promsocatc.alwaysdata.net/formulaire/formulaire.php">
+			<fieldset>
+			
+			<h3>Formulaire de contact</h3>
+			
+			*Nom:</br>
+			<label for="NOM"></label>
+			<input type="text" id="NOM"  value = "NOM" name="NOM" placeholder="Nom, Prénom" required></br>
+			*Email:</br>
+			<label for="EMAIL"></label>
+			<input type="email" id="EMAIL" value = "EMAIL" name="EMAIL" placeholder="Email@monfournisseur.com" required></br>
+			*Je suis:</br>
+			<label for="JESUIS"></label>
+			<select name="JESUIS" id="JESUIS" value = "JESUIS" required>
+			 	<option value="Particulier">Particulier</option>
+				<option value="Professionnel">Professionnel</option>
+			</select></br>
+			*Votre message:</br>
+			<label for="MESSAGE"></label>
+			<textarea id= "MESSAGE" name="MESSAGE" value="MESSAGE" rows="10" cols="100" placeholder="Ecrivez ici" required></textarea></br>
+			<input type="checkbox" id= "NEWSLETTER" name="NEWSLETTER" value="NEWSLETTER" required>
+			<label for="NEWSLETTER">Je veux recevoir la newsletter</label></br>
+			<p></p>
+			<button type="submit">Envoyer</button>
+			</fieldset>
+		</form>
+	</article>	
+	</section>
+	<section id ="Coordonnées">
+		
+	<h2 class="Coordonnées">Coordonnées</h2>
+			<article id = "Courrier">
+			
+				<h3 class="courrier">Par Courrier</h3>
+				
+				<address> 
+					DG Motor s.p.r.l.</br>
+					Avenue Du Marquis, 1 (Zon.Ind)</br>
+					6220 Fleurus </br>
+				</address>
+			</article>
+		
+			<article id = "Horaire">
+			<h3 class="showroom">Le showroom</h3>
+			<table>
+					<caption>Heures d'ouverture</caption> 
+					<thead>
+						<th>
+						<th>lundi
+						<th>mardi
+						<th>mercredi
+						<th>jeudi
+						<th>vendredi
+						<th>samedi
+						<th>dimanche
+					</thead>
+					<tbody>
+						<tr>
+							<th>Matin</th>
+							<td>9h30-12h30</td>
+							<td>9h30-12h30</td>
+							<td class="ferme" rowspan="2" >fermé</td>
+							<td>9h30-12h30</td>
+							<td>9h30-12h30</td>
+							<td>9h30-12h30</td>
+							<td class="ferme" rowspan="2" >fermé</td>
+						</tr>
+						<tr>
+							<th>Après-midi</th>
+							<td>13h30-17h30</td>
+							<td>13h30-17h30</td>
+							
+							<td>13h30-17h30</td>
+							<td>13h30-17h30</td>
+							<td>13h30-17h30</td>
+							
+						</tr>
+				</table>
+			</article>	
+		</section>
+	<footer>Créé par Nicolas <a href="#header"  >Haut page</a></footer>
+	
+</body>
+</html>

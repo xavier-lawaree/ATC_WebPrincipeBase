@@ -1,0 +1,100 @@
+html{
+    font: Arial, Helvetica, sans-serif ;
+    max-width: 99%;
+}
+header{
+    color: rgb(34,16, 172);
+    text-align: center;
+    border: 1px solid rgb(34, 16 , 172);
+    border-radius: 5px;
+
+
+}
+img{
+    width:auto;
+}
+
+
+#vw{
+    position: relative;
+    width:75px;
+    margin-right:110rem;
+}
+#img{
+    width:600px; 
+    max-width: 1600px;
+}
+nav li{
+    display: inline;
+    border:1px solid rgb(34, 16 , 172);
+    border-radius:5px;
+    color:rgb(255,255, 255);
+    background-color:rgb(34, 116 , 172);
+
+}
+
+aside{
+    position: fixed;
+    width: 200px;
+    border:1px solid rgb(34, 16 , 172);
+    border-radius:5px;
+    height:500px;
+    text-align: center;
+    margin-top:10px;
+}
+
+aside li{
+    text-align: left;
+}
+
+section{
+    margin-left: 210px;
+    margin-top:10px;
+    border: 1px solid rgb(34, 16 , 172);
+    border-radius: 5px;
+}
+section fieldset{
+    border:hidden;
+}
+footer{
+    text-align: center;
+    border: 1px solid rgb(34, 16 , 172);
+    border-radius: 5px;
+    margin-top:10px;
+}
+
+h2{
+    color:rgb(255,255, 255);
+    background-color:rgb(34, 116 , 172);
+    border-radius: 5px;
+}
+
+
+
+a:active{
+    color:rgb(255,255, 255);
+}
+
+a:focus{
+    color: rgb(255,255, 255);
+}
+
+a:visited{
+    color: red;
+}
+table{
+    border: 0.5px solid;
+	border-collapse:separate;
+	min-width: 25%;
+	text-align:center;
+	background-color:white;
+}
+
+.bleu{
+    color:rgb(255,255, 255);
+    background-color:rgb(34, 116 , 172);
+}
+
+.fermé{
+    background-color: rgb(125,125,125);
+}

@@ -1,0 +1,97 @@
+/* --- BODY --- */
+body
+{
+	font-family: : Arial,Helvetica,sans-serif;
+}
+/* --- HEADER --- */
+header
+{
+	border: 1px solid rgb(34, 116, 172);
+	border-radius: 25px;
+	text-align: center;
+	color: rgb(34, 116, 172);
+	background-image: url("../image/vw.jpg");
+	background-size: 60px 60px, auto;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+/* ---- NAV --- */
+nav ul li
+{
+	display: inline-block;
+	list-style: none;
+	background-color: rgb(34, 116, 172);
+}
+/* ---- ASIDE --- */
+aside
+{
+	border: 1px solid rgb(34, 116, 172);
+	border-radius: 25px;
+	float: left;
+	position: fixed;
+	padding: 10px;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	width: 10.5em;
+	margin : 10px;
+	margin-bottom: 3.5em;
+    margin-top: 15.5rem;
+}
+aside h2
+{
+	background-color: rgb(34, 116, 172);
+	color: rgb(255,255,255);
+}
+/* ---- SECTION ---- */
+section
+{
+	border: 1px solid rgb(34, 116, 172);
+	border-radius: 25px;
+	margin-top: 10px;
+	margin-left: 200px;
+	padding-bottom: 15px;
+}
+section h2
+{
+	text-align: center;
+	background-color: rgb(34, 116, 172);
+	color: rgb(255,255,255);
+}
+/* ---- FOOTER --- */
+footer
+{
+	border: 1px solid rgb(34, 116, 172);
+	border-radius: 25px;
+	text-align: center;
+	margin-top: 1em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/* ----- IMAGES ----- */
+img
+{
+	width: 100%;
+}
+/* ---- FORMULAIRE ---- */
+label
+{
+	display: block;
+	padding-bottom: 2px;
+}
+/* ----- TABLEAU ---- */
+th
+{
+	background-color: rgb(34, 116, 172);
+	color: rgb(255,255,255);
+}
+.ferme
+{
+	text-align: center;
+	background-color: grey;
+}
+td
+{
+	text-align: center;
+	padding-bottom: 10px;
+}

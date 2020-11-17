@@ -1,0 +1,151 @@
+body {
+    font: 100% Arial,Helvetica,sans-serif;
+}
+
+h1{
+    color: rgb(34,116,172);
+    text-align: center;
+    vertical-align: center;
+}
+
+h2{
+    color:rgb(255,255,255);
+    background-color: rgb(34,116,172);
+    text-align: center;
+    vertical-align: center;
+}
+
+footer{
+    border: 1px solid rgb(34,116,172);
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    margin-top: 1em;
+    padding: 1.5em; 
+    font-size: 85%; 
+    line-height: 14px;
+}
+
+     /* ---------- Link ------------ */
+a{
+    color: #7349d4;
+}
+a:hover {
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+}
+
+
+     /* ---------- Header ------------ */
+
+header{
+    border: 1px solid rgb(34,116,172);
+    border-radius: 5px;
+    background-color: white; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/vw.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+/* ------    Navigation -----*/
+nav{
+    float:center;
+}
+
+/* -----    Link in nav -----  */
+
+header li {
+    list-style: none;
+    display: inline-block;
+    background-color: rgb(34,116,172);
+}
+
+nav a{
+    color: white;
+}
+
+    /* ---------- Image ------------ */
+img{
+    width: 100%;
+    height: auto;
+}
+
+     /* ---------- Aside ------------ */
+aside{
+    margin: 10px;
+    background-color: white;
+    width: 13em;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    margin-bottom: 4.2em;
+    margin-top: 15.5rem;
+    border: 1px solid rgb(34,116,172);
+    border-radius: 5px;
+}
+
+     /* ---------- Section ------------ */
+section{    
+    border: 1px solid rgb(34,116,172);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 14em;
+    background-color: white;
+}
+
+     /* ---------- Article ------------ */
+
+
+     /* ---------- Forms ------------ */
+
+form fieldset{
+    border: none;
+}
+
+form input[type=text]{
+    width: 30em;
+}
+
+form textarea{
+    width: 35em;
+    height: 10em;
+}
+
+form input{
+    background-color: white;    
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 7em;
+    height: 2em;
+}
+
+     /* ---------- Tables ------------ */
+table{
+    width: 40em;
+    margin-left: 0em;
+}
+table td{
+    border: none;
+}
+
+.td-blue{
+    background-color: rgb(34,116,172);
+    color: white;    
+    font-weight: bold;
+}
+
+.td-closed{
+    background-color: rgb(125,125,125);
+    font-weight: bold;
+    text-align: center;
+}
+
+td, .invisible{
+    background-color: white;
+}

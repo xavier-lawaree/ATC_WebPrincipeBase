@@ -1,0 +1,84 @@
+body {
+    font: 100% Arial,Helvetica,sans-serif;
+}
+a {
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+.bordure{
+    border: 1px solid rgb(34,116,172);
+    border-radius: 5px;
+}
+.lienblancsurbleu{
+    color: #FFFFFF;
+    background-color: rgb(34,116,172);
+}
+header h1{
+    vertical-align: center;
+    color: rgb(34,116,172);
+}
+header img{
+    align-self:flex-start;
+}
+header li {
+    list-style-type: none;
+    display: inline-block;
+}
+header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+aside{
+    margin: 10px;
+    padding: 0px;
+    width: 11em;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    margin-bottom: 55px;
+    margin-top: 205px;
+    border-radius: 5px;
+}
+section {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 11.7em;
+}
+section img{
+    width: 100%;
+    height: auto;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+}
+table{
+    width: 500px;
+}
+.titreblancsurbleu{
+    color: #FFFFFF;
+    background-color: rgb(34,116,172);
+    font-size: 19pt;
+    text-align: center;
+    vertical-align: center;
+    font-weight: bold;
+}
+.titrenoir{
+    font-size: 15pt;
+    font-weight: bold;
+}
+.fermé{
+    background-color: rgb(125,125,125);
+    text-align: center;
+}
+.blancsurbleu{
+    color: #FFFFFF;
+    background-color: rgb(34,116,172);
+    font-weight: bold;
+}

@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+	background-image: url("/Images/vw.jpg");
+    background-position:left;
+    background-repeat: no-repeat;
+	background-size: 100px 100px, 100%;
+    border: 1px solid rgb(34,116,172);
+    border-radius: 5px;
+    background-color: #f1f1f1; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+}
+
+#Titre1{
+	font-size: 24pt;
+    text-align: center;
+    vertical-align: center;	
+}
+nav {
+    float: center;
+}
+
+header li {
+	list-style-type: none;
+	display: inline-block;   
+	}
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/* gris pour les fermés*/
+.ferme {
+	background-color:rgb(125,125,125);
+}
+
+h1{
+    color : rgb(34, 116, 172);
+}
+h2{
+    text-align: center;
+}
+h2, .color_cyan{
+    background-color: rgb(34,116,172);
+    color : rgb(255,255,255);
+}
+
+article {
+    margin-top: 1rem; 
+    border: 1px solid rgb(34,116,172);
+    border-radius: 5px;
+	text-align: left;	
+
+}
+section {
+    margin-top: 2.5rem;    
+    border: 1px solid rgb(34,116,172);
+    border-radius: 5px;
+	padding: 15px;	
+	min-width : 600px;	
+    text-align: center;	
+    margin-left: 15em;
+}
+
+table,tr,td{
+	border: 2px solid black;
+    margin:0 auto;
+    text-align: center;
+}
+@media (min-width: 1440px) {
+    aside{
+        margin: 10px;
+        padding: 10px;
+        width: 10.5em;
+        height: 24rem;
+        bottom: 0;
+        top: 0;
+        left:0;
+        position: fixed;
+        margin-bottom: 5rem;
+        margin-top: 13.5rem;
+        border-radius: 5px;
+        border: 1px solid rgb(34,116,172);
+        border-radius: 5px;
+
+    }
+}
+@media (min-width: 1920px) {
+    aside{
+        margin: 10px;       
+        padding: 10px;
+        width: 11em;
+        height: 38rem;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        position: fixed;
+        margin-bottom: 5rem;
+        margin-top: 13.5rem;
+        border-radius: 5px;
+        border: 1px solid rgb(34,116,172);
+        border-radius: 5px;
+
+    }
+}
+footer {
+	margin:10px;
+    text-align: center;	
+    border: 1px solid rgb(34,116,172);
+    border-radius: 5px;
+}
+

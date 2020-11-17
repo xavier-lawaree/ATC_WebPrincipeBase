@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Evaluation Formative Page 2</title>
+	<link rel="stylesheet" href="./moncss.css">
+</head>
+<body>
+<header id="header">
+	<h1>DG Motor SPRL</h1>
+	<nav>
+			<a href="accueil.html" title="accueil">Accueil</a>
+			<a href="showroom.html" title="showroom">Showroom</a>
+	</nav>
+</header>
+<aside id="aside">
+	<h2>L'univers Volkswagen</h2>
+	<ul>
+		<li>Histoire</li>
+		<li>News</li>
+		<li>MyVolkswagen</li>
+	</ul>
+</aside>
+<section id="section2">
+	<article id=section2article1>
+		<h3>Formulaire de contact</h3>
+		<form action="https://xl-promsocatc.alwaysdata.net/formulaire/formulaire.php" method="post" accept-charset="utf-8">
+			<p>
+				<label for="identité" >*Nom :</label>
+				<input type="text" name="identité" id="identité" placeholder="Nom, Prénom" required>
+			</p>
+			<p>
+				<label for="email">*Email</label>
+				<input type="email" name="email" id="email" placeholder="Email@monfournisseur.com" required>
+			</p>
+			<p>
+				<label for="statut">Je suis:</label>
+				<select id="statut">
+					<option>Particulier</option>
+					<option>Professionnel</option>
+				</select>
+			</p>
+			<p>
+				<label>
+					<input type="checkbox" name="newsletter"> Je veux recevoir la newsletter
+				</label>
+			</p>
+			<p>
+				<input type="submit" value="Envoyer">
+			</p>
+		</form>
+	</article>
+</section>
+<section id="section3">
+	<h2>Coordonnées</h2>
+	<article id="section3article1">
+		<h3>Par courrier</h3>
+		<p>DG Motor s.p.r.l</p>
+		<p>Avenue Du Marquis, 1 (Zon.Ind)</p>
+		<p>6220 Fleurus</p>
+	</article>
+	<article id="section3article2">
+		<h3>Le showroom</h3>
+		<table summary="Tableau des heures d'ouverture">
+			<caption>Heures d'ouverture</caption>
+			<thead class="schedule">
+			<tr>
+				<th class="blank" rowspan="2"></th>
+				<th>Lundi</th>
+				<th>Mardi</th>
+				<th>Mercredi</th>
+				<th>Jeudi</th>
+				<th>Vendredi</th>
+				<th>Samedi</th>
+				<th>Dimanche</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td class="schedule">Matin</td>
+				<td>9h30 à 12h30</td>
+				<td>9h30 à 12h30</td>
+				<td class="closed" rowspan="2">Fermé</td>
+				<td>9h30 à 12h30</td>
+				<td>9h30 à 12h30</td>
+				<td class="closed" rowspan="2" colspan="2">Fermé</td>
+			</tr>
+			<tr>
+				<td class="schedule">Après-midi</td>
+				<td>13h30 à 17h30</td>
+				<td>13h30 à 17h30</td>
+				<td>13h30 à 17h30</td>
+				<td>13h30 à 17h30</td>
+
+			</tr>
+			</tbody>
+		</table>
+	</article>
+</section>
+<footer id="footer">
+	Créé par Biramane Shahin <a href="#header">Haut de la page</a>
+</footer>
+</body>
+</html>
