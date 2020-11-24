@@ -49,6 +49,10 @@ header ul {
 
 }
 
+#linkATC, article a{
+    text-decoration: none;
+    color:black;
+}
 /**
     nav
  */

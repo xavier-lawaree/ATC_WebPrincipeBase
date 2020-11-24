@@ -35,10 +35,10 @@
 				<form action="https://xl-promsocatc.alwaysdata.net/formulaire/formulaire.php" method="post" accept-charset="utf-8">
 					<p> 
 						<label for="NOM">*Nom :</label><br>
-						<input id="NOM" type="text" name="NOM" value="" placeholder="Nom, Prénom" size="50" required>
+						<input id="NOM" type="text" name="NOM" placeholder="Nom, Prénom" size="50" required>
 					</p>
 					<p> <label for="EMAIL">*Email :</label> <br>
-						<input id="EMAIL" type="email" name="EMAIL" value="" placeholder="Email@monfournisseur.com" size="50" required>
+						<input id="EMAIL" type="email" name="EMAIL" placeholder="Email@monfournisseur.com" size="50" required>
 					</p>
 					<p> <label for="JESUIS">Je suis :</label><br>
 						<select id="JESUIS" name="JESUIS">
@@ -88,8 +88,9 @@
 							<th>Dimanche</th>
 						</tr>
 					</thead>
+					<tbody>
 					<tr>
-						<td class="TitreTB">Matin</td>
+						<th class="TitreTB">Matin</th>
 						<td >9h30 à 12h30</td>
 						<td >9h30 à 12h30</td>
 						<td rowspan="2" class="CellGrise">Fermé</td>
@@ -98,12 +99,13 @@
 						<td colspan="2" rowspan="2" class="CellGrise">Fermé</td>
 					</tr>
 					<tr>
-						<td class="TitreTB">Après-midi</td>
+						<th class="TitreTB">Après-midi</th>
 						<td >13h30 à 17h30</td>
 						<td >13h30 à 17h30</td>
 						<td >13h30 à 17h30</td>
 						<td >13h30 à 17h30</td>
 					</tr>
+					</tbody>
 				</table>
 		</article>		
 	</section>
