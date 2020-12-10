@@ -1,0 +1,163 @@
+body {
+    font-family: 100% Lucida Sans, Verdana,sans-serif;
+}
+
+h1{
+    color: rgb(223,102,47);
+    text-align: center;
+    vertical-align: center;
+}
+
+h2, .td-orange{
+    color:rgb(255,255,255);
+    background-color: rgb(223,102,47);
+    text-align: center;
+    vertical-align: center;
+}
+
+
+header, footer, section, aside, table{
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: rgb(242,242,242);
+}
+
+     /* ---------- Link ------------ */
+
+a {
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+
+
+     /* ---------- Header ------------ */
+
+header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/logo-ATC.png"),  url("../images/fond-entete-site.jpg");
+    background-position: right, center;
+    background-repeat: no-repeat;
+}
+
+
+/* ------    Navigation -----*/
+nav{
+    float:center;
+}
+
+/* -----    Link in nav -----  */
+
+header li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav a{
+    color: white;
+}
+
+nav a:hover{
+    color: #35AD1B;
+}
+
+    /* ---------- Image ------------ */
+img{
+    width: auto;
+    height: auto;
+}
+
+     /* ---------- Aside ------------ */
+aside{
+    margin: 10px;
+    width: 25em;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    position: fixed;
+    margin-bottom: 4.2em;
+    margin-top: 11.8em;
+}
+
+     /* ---------- Section ------------ */
+section{    
+    margin-top: 10px;
+    margin-right: 26em;
+}
+
+     /* ---------- Article ------------ */
+
+
+     /* ---------- Forms ------------ */
+
+form fieldset{
+    border: none;
+    margin: auto;
+}
+
+
+
+form textarea{
+    width: 80%;
+    height: 10em;
+}
+
+form input{
+    background-color: white;    
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 7em;
+    height: 2em;
+}
+
+form input[type=text], input[type=email]{
+    max-width: 30em;
+    width: 60%;
+}
+
+.requiredLabel:before{
+    content: "*";
+    color: red;
+} 
+
+     /* ---------- Tables ------------ */
+table{
+    width: 40em;
+    margin-left: 0em;
+}
+table td{
+    border: none;
+    text-align: center;
+}
+
+.td-orange{   
+    font-weight: bold;
+}
+
+.td-closed{
+    background-color: rgb(125,125,125);
+    font-weight: bold;
+    text-align: center;
+}
+
+td, .invisible{
+    background-color: white;
+}
+
+
+
+
+
+
+     /* ---------- Footer ------------ */
+
+footer{
+    text-align: center;
+    margin-top: 1em;
+    padding: 1.5em; 
+    font-size: 85%; 
+    line-height: 14px;
+}

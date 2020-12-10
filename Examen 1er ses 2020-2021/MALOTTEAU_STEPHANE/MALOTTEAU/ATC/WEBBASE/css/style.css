@@ -1,0 +1,151 @@
+/* GENERAL
+   ------------------------------------------------- */
+h1
+{
+    color: rgb(223,102,47);
+}
+h2, th, tfoot
+{
+    color: rgb(255,255,255);
+    background-color: rgb(223,102,47);
+    text-align: center;
+}
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+/* HEADER
+   ------------------------------------------------- */
+header, aside, section, footer, table
+{
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: rgb(242,242,242);
+}
+.header
+{
+    background-image: url("../images/logo-ATC.png"), url("../images/fond-entete-site.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right center, left top;
+    text-align: center;
+}
+#linkATC
+{
+    text-decoration: none;
+}
+#linkVanderus
+{
+    text-decoration: none;
+    color: #000000;
+}
+/* NAV
+   ------------------------------------------------- */
+nav ul
+{
+    list-style-type: none;
+}
+nav li
+{
+    display: inline-block;
+}
+nav a
+{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+nav a:hover
+{
+    color: #35AD1B;
+}
+/* ASIDE
+   ------------------------------------------------- */
+.aside
+{
+    position: fixed;
+    width: 250px;
+    right: 8px;
+    top: 170px;
+    bottom: 45px;
+    font-size: 65%;
+}
+.aside ul
+{
+    list-style-type: none;
+    padding-left: 0px;
+}
+/* SECTION
+   ------------------------------------------------- */
+section
+{
+    margin-top: 10px;
+    margin-right: 260px;
+    min-width: auto;
+}
+/* FOOTER
+   ------------------------------------------------- */
+.etoile
+{
+    color: red;
+}
+/* TABLE
+   ------------------------------------------------- */
+.ferme
+{
+    background-color: rgb(125,125,125);
+    text-align: center;
+}
+.fondBlanc
+{
+    background-color: rgb(242,242,242);
+}
+td
+{
+    width: 50px;
+}
+/* FOOTER
+   ------------------------------------------------- */
+footer
+{
+    text-align: center;
+    font-size: 70%;
+    margin-top: 10px;
+    line-height: 25px;
+}
+/* MEDIA QUERY
+   ------------------------------------------------- */
+   @media screen and (min-width: 500px) and (max-width: 750px)
+   {
+    input, textarea
+    {
+        max-width: 300px;
+    }
+
+    table, thead, tbody, tfoot, th, td, tr, caption
+    {
+        display: block;
+    }
+    thead
+    {
+        display: none;
+    }
+    td
+    {
+        position: relative;
+        padding-left: 50%;
+        width: auto;
+        border: none;
+        border-bottom: 1px solid rgb(200,200,200);  
+    }
+    td:before
+    {
+        position: absolute;
+        content: attr(data-label);
+        left: 5px;
+        width: 50%;
+    }
+    .ferme
+    {
+        text-align: left;
+    }
+   }

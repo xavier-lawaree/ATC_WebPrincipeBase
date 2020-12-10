@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aumôniers du Travail - Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <!-- Header + Nav -->
+    <header id="header" class="header">
+        <a href="http://www.promsocatc.com" id="linkATC">
+            <h1>Collège Technique "Aumôniers du Travail"<br>Enseignement de Promotion sociale</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Aside -->
+    <aside class="aside">
+        <h2>Point d'informations</h2>
+        <ul>
+            <li>
+                <h3>Fin des inscriptions</h3>
+                <p>20 octobre 2020 16:29<br>
+                    Les inscriptions pour l'année scolaire 2020-2021 sont désormais clôturées. 
+                </p>
+            </li>
+            <li>
+                <h3>Inscriptions (septembre)</h3>
+                <p>
+                    31 août 2020 21:04<br>
+                    Désormais, le secrétariat est ouvert de13h30 à 20h30 pour prendre en charge les inscriptions. Attention, il est fermé le mercredi. 
+                </p>
+            </li>
+            <li>
+                <h3>Portes ouvertes du vendredi 4 septembre</h3>
+                <p>
+                    15 juillet 2020 14:50<br>
+                    Le vendredi 4 septembre de 17h30 à 20h30, nous organisons une soirée portes ouvertes. Le secrétariat et les enseignants se tiendront à votre disposition pour répondre à toutes vos questions. 
+
+                </p>
+            </li>
+            <li>
+                <h3>Examen web principe de base</h3>
+                <p>
+                    8 décembre 2020 17:30<br>
+                    Le Mardi 8 Décembre de 17h30 à 20h50, l'examen web principe de base aura lieu en G301. Les étudiants seront mis sous pression. Nous leurs souhaitons bonne mer.... 
+                </p>
+            </li>
+        </ul>
+    </aside>
+    <!-- Contenu principal -->
+    <section>
+        <h2>Nous contacter</h2>
+        <article>
+            <h3>Formulaire de contact</h3>
+            <form action="http://xl-promsocatc.alwaysdata.net/examen/formulaire.php" method="POST" enctype="application/x-www-form-urlencoded">
+                <p>
+                    <label for="NOM"><span class="etoile">*</span>Nom :</label><br>
+                    <input type="text" name="NOM" id="NOM" placeholder="Nom, Prénom" value="" size="50" required>
+                </p>
+                <p>
+                    <label for="EMAIL"><span class="etoile">*</span>Email :</label><br>
+                    <input type="email" name="EMAIL" id="EMAIL" placeholder="Email@monfournisseur.com" value="" size="50" required>
+                </p>
+                <p>
+                    <label for="JESUIS">Je suis :</label><br>
+                    <select name="JESUIS" id="JESUIS">
+                        <option value="ETUD">Élève</option>
+                        <option value="PARETUD">Parent d'élève</option>
+                        <option value="PROFESSEUR">Professeur</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="MESSAGE"><span class="etoile">*</span>Votre message :</label><br>
+                    <textarea name="MESSAGE" id="MESSAGE" cols="60" rows="10" required></textarea>
+                </p>
+                <p>
+                    <input type="checkbox" name="NEWSLETTER" id="NEWSLETTER" value="1">
+                    <label for="NEWSLETTER">Je veux recevoir la newsletter de l'école</label>
+                </p>
+                <p>
+                    <input type="submit" name="SUBMIT" id="SUBMIT" value="Envoyer">
+                </p>
+            </form>
+        </article>
+        <article>
+            <h3>Par courrier</h3>
+            <p>
+                Collège Technique "Aumôniers du Travail"<br>Enseignement de Promotion Sociale<br>Grand rue 185<br>6000 Charleroi
+            </p>
+            <h3>Le secrétariat</h3>
+            <p>Tel : 071/285.905</p>
+
+            <table class="tabHeurOuv">
+                <caption>Heures d'ouverture</caption>
+                <thead>
+                    <tr>
+                        <th class="fondBlanc"></th>
+                        <th>Lundi</th>
+                        <th>Mardi</th>
+                        <th>Mercredi</th>
+                        <th>Jeudi</th>
+                        <th>Vendredi</th>
+                        <th>Samedi</th>
+                        <th>Dimanche</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Matin</th>
+                        <td data-label="Lundi">9h30 à 12h30</td>
+                        <td data-label="Mardi">9h30 à 12h30</td>
+                        <td class="ferme" data-label="Mercredi">Fermé</td>
+                        <td data-label="Jeudi">9h30 à 12h30</td>
+                        <td data-label="Vendredi">9h30 à 12h30</td>
+                        <td rowspan="2" colspan="2" class="ferme" data-label="Samedi / Dimanche">Fermé</td>
+                    </tr>
+                    <tr>
+                        <th>Après-midi</th>
+                        <td data-label="Lundi">17h30 à 20h30</td>
+                        <td data-label="Mardi">17h30 à 20h30</td>
+                        <td data-label="Mercredi">17h30 à 20h30</td>
+                        <td data-label="Jeudi">17h30 à 20h30</td>
+                        <td data-label="Vendredi">17h30 à 20h30</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="8">du 1/09 au 30/6</td>
+                    </tr>
+                </tfoot>
+            </table>
+            
+            <p>
+                Inscriptions dès le 24 août<br>du lundi au vendredi de 9h30 à 12h30 et de 13h30 à 20h30
+            </p>
+        </article>
+    </section>
+    <!-- Footer -->
+    <footer>
+        Par Malotteau Stéphane <a href="#header">Haut de page</a>
+    </footer>
+</body>
+</html>

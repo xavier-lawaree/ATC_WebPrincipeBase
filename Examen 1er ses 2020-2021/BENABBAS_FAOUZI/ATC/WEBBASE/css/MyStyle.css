@@ -1,0 +1,167 @@
+
+header, aside, section, footer, table{
+	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	background-color: rgb(242,242,242);
+}
+
+/*--------header--------*/
+
+header{
+	background-image: url("../img/fond-entete-site.jpg");
+	text-align: center;
+	padding: 25px 0;
+}
+header>a{
+	text-decoration: none;
+}
+
+header img{
+	position: absolute;
+	right: 8px;
+	top: 50px;
+}
+
+nav{
+	padding-top: 40px;
+}
+
+nav>a{
+	color: #ffffff;
+}
+nav>a:hover{
+	color: #35AD1B;
+}
+
+/* h1-6*/
+h1{
+	color: rgb(223,102,47);
+	
+	margin: 0 auto;
+	width: 75%;
+}
+
+h2, td:first-child, th{
+	color: rgb(255,255,255);
+	background-color: rgb(223, 102, 47);
+}
+
+/*--------aside--------*/
+
+aside{
+	width: 500px;
+	position: fixed;
+	right: 8px;
+	margin-top: 10px;
+}
+
+/*--------section--------*/
+
+section{
+	margin: 10px 510px 0 0;
+	
+}
+
+/*--------footer--------*/
+
+footer{
+	margin-top: 10px;
+}
+
+footer>p{
+	text-align: center;
+}
+
+/*--------form--------*/
+
+span.required{
+	color: red;
+}
+
+label{
+	display: block;
+}
+label.labelInline{
+	display: inline;
+}
+
+textarea{
+	height: 150px;
+}
+
+textarea, table{
+	width: 450px;
+}
+
+/*--------table--------*/
+
+td:first-child{
+	text-align: center;
+}
+th.th_vide{
+	visibility: hidden;
+}
+td.td_fermé{
+	background-color: rgb(125,125,125);
+	text-align: center;
+}
+
+/*--------responsive 1200px --------*/
+
+@media (max-width: 1200px){
+
+aside{
+	width: 300px;
+}
+
+section{
+	margin-right: 310px;
+}
+
+}
+
+/*--------responsive 500 --------*/
+
+
+@media (max-width: 500px){
+
+aside{
+	width: 200px;
+	font-size: 10px;
+}
+
+section{
+	margin-right: 210px;
+	font-size: 15px;
+}
+
+textarea, table{
+	width: 90%;
+}
+
+table *{
+	display: block;
+}
+
+table thead{
+	visibility: hidden;
+	height: 0px;
+}
+
+h1{
+	font-size: 20px;
+	margin: 0;
+}
+
+header img{
+	top: 30px;
+}
+
+}
+
+
+
+
+
+
+
