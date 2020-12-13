@@ -1,0 +1,111 @@
+/* --Concerne tout le html-- */
+html,body {
+    font-family: sans-serif;
+}
+/* --Concerne le header -- */
+header,aside,section {
+    border:1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: rgb(242,242,242);
+}
+
+
+#header{
+	background-image: url("../Images/fond-entete-site.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+}
+
+nav {
+     
+    background-image: url("../Images/logo-ATC.png");   
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+header li {
+	list-style-type: none;
+	display: inline-block;   
+	}
+nav a {
+    color:#FFF;
+    text-decoration: underline;
+}
+nav a:hover{
+    text-decoration: none;
+    color:#35AD1B;
+}
+/* --Concerne l'asside'--*/
+aside {  
+    margin: 10px; 
+    max-width: 34em;
+    min-width: 20em;
+    min-height: 32.5em;       
+    margin-left: 610px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    position: fixed;
+    margin-bottom: 5em;
+    margin-top: 13.5rem;
+    border-radius: 5px;        
+}
+
+article  {
+	text-align: left;
+}
+
+section {
+    margin-top: 10px;    
+    margin-right: 36rem;    
+    min-width: 600px;	
+    
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* --Concerne les titres-- */
+h1 {
+    color:rgb(223,102,47);
+
+}
+h2 {
+    text-align: center;
+    color:rgb(255,255,255);
+    background-color: rgb(223,102,47);
+}
+/* --Concerne le formulaire-- */
+.red{
+    color:red;
+}
+/* --Concerne le tableau-- */
+table,tr,td{
+	border: 2px solid black;
+    margin:0 auto;
+    text-align: center;
+}
+.orange{
+    background-color: rgb(223,102,47);
+    color : white;
+}
+.ferme{
+    background-color: gray;
+}
+tfoot{
+    text-align: center;
+}
+/* --Concerne le footer-- */
+footer {
+	margin:10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: gray;
+    border-radius: 5px;
+}

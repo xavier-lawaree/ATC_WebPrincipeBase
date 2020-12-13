@@ -1,0 +1,56 @@
+/* Entête */
+header{
+border: 1px solid #d4d4d4;
+border-radius: 5px;
+background-color: rgb(242, 242, 242);
+background-image: url(../images/fond-entete-site.jpg);
+
+}
+
+/* Aside bandeau vertical du coté droit*/
+aside{
+border: 1px solid #d4d4d4;
+border-radius: 5px;
+background-color: rgb(242, 242, 242);
+position:fixed;
+width: 25%;
+height: auto;
+right: 0;
+}
+
+/* Les sections */
+section{
+border: 1px solid #d4d4d4;
+border-radius: 5px;
+background-color: rgb(242, 242, 242);
+margin-top: 10px;
+}
+
+/* Bas de page */
+footer{
+border: 1px solid #d4d4d4;
+border-radius: 5px;
+background-color: rgb(242, 242, 242);
+}
+
+/* Couleurs des titres */
+h1{
+    color: rgb(223, 102, 47);
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(223, 102, 47);
+}
+
+/* Couleur blanc menu + couleur survol vert */
+nav ul li a{
+    color: #ffffff;
+    
+}
+a:hover{
+    background-color: #35ad1b;
+}
+nav{
+    display: inline;
+}

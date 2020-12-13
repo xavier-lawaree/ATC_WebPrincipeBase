@@ -1,0 +1,130 @@
+/* --- Obligation bordure et couleur(+fond) --- */
+h1
+{
+	color: rgb(223,102,47);
+}
+h2
+{
+	background-color: rgb(223,102,47);
+	color:  rgb(255,255,255);
+}
+nav ul li a 
+{
+	color: white;
+	padding: 2px;
+}
+nav ul li a:hover
+{
+	color: #35AD1B;
+}
+a
+{
+	text-decoration: none;
+}
+/* ---- Header et nav ----*/
+header
+{
+	overflow: auto;
+	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	background-image: url(../image/fond-entete-site.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+	
+	text-align: center;
+}
+nav ul li 
+{
+	display: inline;
+}
+.logo
+{
+	float: right;
+	bottom: 20em;
+}
+/* ----- aside ---- */
+aside
+{
+	overflow: auto;
+	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	background:  rgb(242,242,242);
+	float: right;
+	position: fixed;
+	padding: 20px;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	width: 28em;
+	margin: 10px;
+	margin-top: 15.1em;
+	margin-bottom: 2.8em;
+}
+/* ---- section ---- */
+section
+{
+	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	background:  rgb(242,242,242);
+	margin-right: 500px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+/* ---- Footer ---- */
+footer
+{
+	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	background:  rgb(242,242,242);
+	margin-top: 10px;
+
+}
+/*----- formulaire ---- */
+label 
+{
+	display: block;
+	padding-bottom: 1px;
+	margin: 5px;
+}
+textarea
+{
+	padding-right: 400px;
+	padding-bottom: 70px;
+}
+.btn:hover
+{
+	background: #0080ff;
+	color: white;
+}
+span
+{
+	color: red;
+}
+/* ---- Tableau ---- */
+table
+{
+	border: 1px double lightgrey;
+	margin-right: 80em;
+}
+th
+{
+	background-color: rgb(223,102,47);
+	color:  rgb(255,255,255);
+}
+td
+{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.thcolor
+{
+	background-color: rgb(223,102,47);
+	color:  rgb(255,255,255);
+	text-align: center;
+
+}
+.fermé
+{
+	background-color: grey;
+}

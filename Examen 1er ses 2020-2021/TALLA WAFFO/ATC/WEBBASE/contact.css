@@ -1,0 +1,170 @@
+/****RESET****/
+*{
+	margin:5px;
+	padding: ;
+	box-sizing: border-box;
+    overflow: auto;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+h1{
+    color: rgb(223,102,47);
+}
+
+h2{
+    color: rgb(255,255,255);
+    background-color: rgb(223,102,47);
+    text-align:center;
+}
+
+
+/****HEADER****/
+
+#header
+{
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: rgb(242,242,242);
+    background-image: url("fond-entete-site.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+     display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+header img{
+    padding-left: 88%;  
+}
+
+header h1 a{
+    text-decoration: none;
+    color: rgb(223,102,47);
+}
+
+header h1{
+     text-align: center;
+}
+
+header li{
+    display: inline;
+    
+}
+nav a{
+    color: #FFFFFF;
+    
+}
+
+nav ul li a:hover{
+    color: #35AD1B;
+}
+
+/****ASIDE*****/
+aside{
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: rgb(242,242,242);
+    position: fixed;
+    right: 0px;
+    width: 350px;
+    padding-bottom: 33px;
+    font-size: 0.8em;
+}
+
+aside h3{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+/*****SECTION*******/
+section{
+     border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: rgb(242,242,242);
+    margin-top: 10px;
+    margin-right: 350px;
+    
+}
+
+
+/******ARTICLE*****/
+article ul{
+    list-style-type: circle;
+}
+
+.pv h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*****FOOTER****/
+
+footer{
+     border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: rgb(242,242,242);
+    padding: 10px;
+    text-align: center;
+}
+
+/*FORMULAIRES*/
+#nom{
+    height: 30px;
+    width:60%;
+}
+
+#email{
+    height: 30px;
+    width:60%;
+}
+
+span{
+    color: red;
+    padding-left: 0px;
+}
+
+/***TABLEAU*****/
+th{
+    background-color: rgb(223,102,47);
+    color: rgb(255,255,255);
+}
+
+.none{
+    background-color: white;
+}
+
+.put{
+    background-color: rgb(125,125,125);
+    text-align: center;
+}
+
+tfoot{
+    background-color: rgb(223,102,47);
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+/*****DIMENSION TABLETTE******/
+@media (max-width: 700px) { 
+        body {
+   height: 5em;
+   font-size:100%;
+
+}
+    table{
+        font-size: 5px;
+    }
+    textarea{
+        height: 50px;
+        width: 50%;
+    }
+    aside{
+        padding-bottom: 96px;
+    }
+}

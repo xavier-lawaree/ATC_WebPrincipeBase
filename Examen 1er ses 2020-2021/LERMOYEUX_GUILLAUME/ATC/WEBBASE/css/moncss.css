@@ -1,0 +1,117 @@
+body {
+    font: 100% Arial,Helvetica,sans-serif;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+nav a{
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #35AD1B;
+}
+
+header, aside, section, footer, table{
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: rgb(242,242,242);
+}
+
+header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image:url("../images/fond-entete-site.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+header li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+header img{
+    float: right;
+}
+
+aside{
+    margin: 10px;
+    margin-bottom: 55px;
+    margin-top: 285px;
+    padding: 0;
+    width: 400px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    position: fixed;
+    font-size: 80%;
+}
+
+section{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 410px;
+}
+
+section img{
+    width: 10%;
+    height: auto;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    line-height: 14px;
+}
+
+h1{
+    color: rgb(223,102,47);
+    vertical-align: center;
+}
+
+h2,th{
+    color: rgb(255,255,255);
+    background-color: rgb(223,102,47);
+    text-align: center;
+}
+
+table {
+    width: 60%;
+}
+
+.sous_titre{
+    font-weight: bold;
+    padding: 5px;
+}
+
+#TitreAside{
+    color: rgb(255,255,255);
+    background-color: rgb(223,102,47);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.LienNeutre{
+    color: inherit;
+    text-decoration: none;
+}
+
+p.Required_Field label::before {
+    content: "*";
+    color: red;
+}
+
+.fermé{
+    background-color: rgb(125,125,125);
+    text-align: center;
+}

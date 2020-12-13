@@ -1,0 +1,214 @@
+/*reset des margins comme cela plus de bord blanc et en pleine page*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html, body
+{
+	border:1px solid #d4d4d4;
+	border-radius: 5px;
+	background-color: white;
+} 
+
+/*-----HEADER-----*/
+
+#linkATC
+{
+	text-decoration: none;
+	color: rgb(223,102,47);
+}
+header
+{
+	background-image: url('../images/fond-entete-site.jpg'); /*image dans dossier parent pour css*/
+	background-repeat: no-repeat;
+	height:200px;
+	border-radius: 5px;
+	margin:5px;
+}
+header h1 
+{
+	text-align: center;
+	padding:5px ;
+	color: rgb(223,102,47);
+}
+header nav
+{
+	text-align: center;
+	padding:70px 0px 20px 0px ;
+}
+nav ul li
+{
+	list-style-type: none;
+ 	display: inline-block;
+    margin:5px;	
+}
+nav ul li a {
+    color: white;
+    text-decoration: underline; 
+
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color:#35AD1B;
+}
+.logo-ATC
+{
+	height:30%;
+	width:auto;
+	float: right;
+	margin-right: 10px;
+}
+/*-----ASIDE-----*/
+aside
+{
+	margin:5px;
+	padding:5px;
+	top:215px;
+	right:0;
+	width: 300px;
+	height: 500px;
+	position:fixed;
+	border:1px solid #d4d4d4;
+	background: rgb(242,242,242);
+	border-radius: 5px;
+}
+aside h4
+{
+	text-align: center;
+	padding-top:5px;
+	padding-bottom: 5px;
+	color: white;
+	background-color: rgb(223,102,47);
+}
+
+aside h5
+{
+	padding:10px 10px 10px 0px;
+	color: black;
+}
+aside p
+{
+	margin-top: 10px;
+	font-size: 10px;
+}
+
+/*-----SECTION-----*/
+
+section
+{
+	margin:5px;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(242,242,242);
+	margin-right:330px;
+	border-radius:5px;
+	background-color: rgb(242,242,242);
+	border:1px solid #d4d4d4;
+}
+section h2
+{
+	padding-top:5px 0px 5px 0px;
+	color: white;
+	background-color: rgb(223,102,47);
+	text-align: center;
+}
+section h3
+{
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+ul
+{
+	margin-left: 30px;
+}
+article
+{
+
+}
+.vanderus
+{
+	width:15%;
+	height:auto;
+}
+.deces
+{
+	text-decoration: none;
+}
+
+/*------ TABLES ------*/
+
+table
+{
+	width:500px;
+	border-radius:5px;
+	background-color: rgb(242,242,242);
+	border:1px solid #d4d4d4;
+}
+th
+{
+color: white;
+	background-color: rgb(223,102,47);
+	text-align:center;
+}
+.ferme
+{
+	background-color: grey;
+	text-align:center;
+}
+.periode
+{
+	color: white;
+	background-color: rgb(223,102,47);
+	text-align:center;
+}
+
+
+
+
+/*MEDIAS QUERIES POUR 1200px et 700px*/
+*/
+@media (max-width: 1200px) {
+    section{
+    display:flex;
+	flex-direction:column;
+	margin-right:330px;;
+	border-radius:5px;
+	margin-top: 12px;
+	padding:10px;
+    }
+    #MESSAGE
+  {
+  	width:800px;
+  }
+}
+@media (min-width: 700px) {
+  section {
+    display:flex;
+	flex-direction:column;
+	margin-right:330px;
+	border-radius:5px;  
+	margin-top: 12px;
+	padding:10px;
+}
+  #MESSAGE
+  {
+  	width:500px;
+  }
+}
+
+/*----- FOOTER ------*/
+
+footer{
+    text-align: center;
+	border:1px solid #d4d4d4;
+	border-radius:5px;
+	background-color: rgb(242,242,242);
+	margin:5px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	padding:10px;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head >
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Page1</title>
+</head>
+<body id="haut">
+	<header class="header">
+		
+       <a href="http://www.pr">
+		<h1>
+			Collège Technique "Aumôniers du Travail"</br> 
+		    Enseignement de Promotion Sociale
+		</h1>
+		<img src="images/logo-ATC.png" class="logo" alt="logo">
+       </a>
+		<nav>
+		   <ul>
+		     <a href="accuille.html"><li>Accuille</li></a>
+		  	 <a href="contact.html"><li>Contact</li></a>
+		   </ul>
+		</nav>
+    </header>
+<aside class="aside">
+	<h2>Point d'informations</h2>
+	   <h3>Fin des inscriptions</h3>
+	     <p>
+	   	    20 octobre 2020 16:29</br>
+            Les inscriptions pour l'année scolaire 2020-2021 sont désormais clôturées. 
+         </p>
+	   <h3>Inscriptions (septembre)</h3>
+	     <p>
+	   	    31 août 2020 21:04</br> 
+            Désormais, le secrétariat est ouvert de13h30 à 20h30 pour prendre en charge les inscriptions. Attention, il est fermé le mercredi.
+         </p>
+	   <h3>Portes ouvertes du vendredi 4 septembre</h3>
+	     <p>
+	   	    15 juillet 2020 14:50</br>
+            Le vendredi 4 septembre de 17h30 à 20h30, nous organisons une soirée portes ouvertes. Le secrétariat et les enseignants se tiendront à votre disposition pour répondre à toutes vos questions. 
+         </p>
+	   <h3>Examen web principe de base</h3>
+	     <p>
+	   	    8 décembre 2020 17:30</br>
+            Le Mardi 8 Décembre de 17h30 à 20h50, l'examen web principe de base aura lieu en G301. Les étudiants seront mis sous pression. Nous leurs souhaitons bonne mer.... 
+         </p>
+	   
+	
+</aside>
+
+<section class="section">
+	<h2>Nous contacter</h2>
+		<h3>Formulaire de contact</h3>
+		
+		<form method="post" action="http://xl-promsocatc.alwaysdata.net/examen/formulaire.php">
+			<label for="NOM"><span>*</span>Nom :</label></br>
+			<input type="text" name="NOM" id="nom"placeholder="Nom ,Prénom" size="50" >
+			
+			</br>
+
+			<label for="EMAIL"><span>*</span>Email :</label></br>
+	        <input type="email" name="EMAIL" id="Email" placeholder="Email@monfournisseur.com" size="50" />
+			
+			</br>
+
+			<label for="JESUIS">Je suis : </label></br>
+	   	    <select name="JESUIS" id="JESUIS" >
+	   		    
+                <option value="ETUD">Elève</option>
+	   		    <option value="PARETUD">Parent d'élève</option>
+	   		    <option value="PROFESSEUR">Professeur</option>
+	   		   
+	   	   </select>
+           
+           </br>
+
+           <label name="MESSAGE" id="message"><span>*</span> Votre message :</label></br>
+	   	   <textarea name="MESSAGE" id="message" rows="10" cols="80"></textarea>
+        
+           </br>
+           <input type="checkbox" name="NEWSLETTER" id="NEWSLETTER" value="1" >
+	   	   <label name="NEWSLETTER" for="newsletter">Je veux recevoir la newsletter</label>
+
+	   	   </br>
+
+	   	   <input type="submit" value="Envoyer"> 
+
+		</form>
+	
+	
+		
+</section>
+
+<section class="section">
+	<article>
+		<h3>Par courrier</h3>
+		<p>
+			Collège Technique "Aumôniers du Travail" </br>
+            Enseignement de Promotion Sociale        </br>
+            Grand rue 185 </br>
+            6000 Charleroi </br>
+		</p>
+		
+	</article>
+	<article>
+		<h3>Le secrétariat</h3>
+		<p>Tel : 071/285.905</p>
+
+		<table>
+			<caption>Heures d'ouverture</caption>
+			<thead>
+				<tr>
+					<td></td>
+					<th>Lundi</th>
+					<th>Mardi</th>
+					<th>Mercredi</th>
+					<th>Jeudi</th>
+					<th>Vendredi</th>
+					<th>Samedi</th>
+					<th>Dimanche</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Matin</th>
+					<td>9H30 à 12H30</td>
+					<td>9H30 à 12H30</td>
+					<td class="close">Fermé</td>
+					<td>9H30 à 12H30</td>
+					<td>9H30 à 12H30</td>
+					<td class="close" rowspan="2" colspan="2">Fermé</td>
+					
+					<tr>
+						<th>Après-midi</th>
+						<td>17H30 à 20H30</td>
+						<td>17H30 à 20H30</td>
+						<td>17H30 à 20H30</td>
+						<td>17H30 à 20H30</td>
+						<td>17H30 à 20H30</td>
+						
+					</tr>
+				</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="8">du 1/09 au 30/6</td>
+						</tr>
+					</tfoot>
+			</table>
+
+
+		<p>
+			Inscriptions dès le 24 août </br>
+            du lundi au vendredi de 9h30 à 12h30 et de 13h30 à 20h30 
+        </p>
+
+	</article>
+</section>
+
+
+<footer class="footer">
+	<p> Par Goffaux Renaud <a href="#haut">Haut de page</a></p>
+</footer>
+
+
+</body>
+</html>

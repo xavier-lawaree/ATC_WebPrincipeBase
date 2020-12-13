@@ -1,0 +1,78 @@
+/**
+    Je met ici ce qui doit être en commun entre le header, aside, section le footer et les table
+ */
+
+header, aside, section, footer, table{
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background-color: rgb(242,242,242);
+}
+/**
+    Je place dans le header les images de fond
+*/
+header{
+    background-image: url("./images/logo-ATC.png"),url("./images/fond-entete-site.jpg");
+    background-position: right, center;
+    background-repeat: no-repeat, repeat;
+}
+/**
+    On cadre l'aside et on le fixe à droite (pour qu'il soit toujours présent sur la droite lorsque l'on va naviguer de haut en bas sur le site
+ */
+aside{
+    position: fixed;
+    margin-left: 50%;
+    width: 50%;
+}
+section{
+    margin-top: 10px;
+    margin-right: 50%;
+    width: 50%;
+}
+h1{
+    color: rgb(233,102,47);
+}
+h2, th{
+    color: rgb(255,255,255);
+    background-color: rgb(223,102,47);
+}
+/**
+    On centre le texte là des titres et de la page de la nav
+ */
+h1, h2, nav, table, footer{
+    text-align: center;
+}
+table{
+    max-width: 50%;
+}
+nav{
+    margin-bottom: 15px;
+}
+nav a{
+    color:#FFFFFF;
+}
+nav a:hover{
+    color:#35AD1B;
+}
+th{
+    width: 15px;
+}
+.closed{
+    background-color: rgb(125,125,125);
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/**
+Je retire le surlignement du titre-lien
+ */
+#linkATC{
+    text-decoration: none;
+}
+.blank{
+    background-color: white;
+}
+.red::first-letter{
+    color: red;
+}

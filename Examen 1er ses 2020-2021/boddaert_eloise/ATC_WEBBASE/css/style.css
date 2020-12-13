@@ -1,0 +1,151 @@
+/* ...................... 1) PREMIERE PARTIE GENERALE ...................... */
+
+/* ...................... BODY ...................... */
+
+header, aside, section, footer{
+	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	background: rgb(242, 242, 242);
+}
+
+
+/* ...................... TITRES ...................... */
+
+h1{
+	color: rgb(223, 102, 47);
+	text-decoration: none;
+}
+
+h2{
+	background-color: rgb(233,102,47);
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.lienTitreNoir a{
+	text-decoration: none;
+	color: black;
+}
+
+
+/* ...................... HEADER ...................... */
+
+
+header{
+	text-align: center;
+	background-image: url("../images/logo-ATC.png"), url("../images/fond-entete-site.jpg");
+	background-position: right, center;
+	background-repeat: no-repeat;
+	background-size: 137px 108px, 100%;
+}
+
+
+
+
+
+/* on enlève les puces des listes et on alligne les éléments */
+header nav li{
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	
+}
+
+/* on echange les couleurs du fond et du texte des liens dans la navigation
+lorsque l'on passe le curseur dessus*/
+header nav li a{
+	font-size: large;
+	color: #ffffff;
+	width: 200px;
+}
+
+header nav li a:hover{
+	color: #35AD1B;
+}
+nav{
+	padding-top: 20px;
+}
+
+
+/* ...................... ASIDE ...................... */
+
+aside{
+	top: 210px;
+	right: 0;
+	bottom: 60px;
+	width: 450px;
+	position: fixed;
+}
+
+
+/* ...................... SECTION ...................... */
+
+/* on met le display flex en column pour qu'elles soient 
+les unes en-dessous des autres */
+section{
+	font-size: larger;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	margin-right: 460px;
+}
+
+
+/* ...................... FOOTER ...................... */
+
+footer{
+	text-align: center;
+	padding: 2px;
+	font-size: 70%;
+	line-height: 14px;
+	margin-top: 10px;
+}
+
+
+/* ...................... 2) DEUXIEME PARTIE SPECIFICQUE AUX PAGES ET ARTICLES ...................... */
+
+/* ...................... FORMULAIRE ...................... */
+
+form b{
+	color: red;
+}
+
+/* ...................... TABLEAU ...................... */
+
+.TableauHoraire{
+	border: 1px solid #d4d4d4;
+	margin-bottom: 10px;
+}
+
+.TableauHoraire tbody{
+	background: rgb(242, 242, 242);
+}
+
+.TableauHoraire td {
+	width: 60px;
+}
+
+/* on change le font weight seulement dans le th 
+pour que toute la police soit la même dans tout le tableau */
+.TableauHoraire th{
+	font-weight: normal;
+}
+
+/* ne pas oublier de mettre en blanc 
+le coin en haut à gauche du tableau */
+.Coin{
+	background-color: rgb(255, 255, 255);
+}
+
+/* mettre le fond des cases en gris et en bleu 
+en fonction des classes données dans le html*/
+.CaseGrise{
+	background-color: rgb(125,125,125);
+	text-align: center;
+}
+
+.CaseOr{
+	background-color: rgb(233,102,47);
+	color: rgb(255, 255, 255);
+	text-align: center;
+}

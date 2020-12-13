@@ -1,0 +1,95 @@
+html,body{
+
+}
+
+header, aside, section,footer,table{
+	border:1px solid #d4d4d4;
+	border-radius: 5px;
+	background: rgb(242,242,242);
+}
+
+h1{
+	color: rgb(223,102,47);
+}
+h2{
+	color: rgb(255,255,255);
+	background:rgb(223,102,47);
+	text-align: center;
+}
+body a {
+	text-decoration: none;
+}
+span{
+	color:red;
+}
+
+.logo{
+	display: inline-block;
+	float: right;
+	top:10px;
+	margin-top: 5px;
+	
+    
+}
+.header{
+	background: url("../images/fond-entete-site.jpg");
+	text-align: center;
+	height: 200px;
+	overflow: auto;
+}
+
+.header nav ul{
+	display : flex;
+    flex-direction: row;
+	justify-content: center;
+	list-style-type: none;
+	color: white;
+}
+.header a{
+	color:white;
+	padding: 3px;
+}
+.header a:hover{
+	color:#35ad1b;
+}
+
+.aside{
+	
+	float:right;
+	right: 0;
+	bottom: 42px;
+	width: 39%;
+	margin-top: 5px;
+	margin-right:5px;
+	margin-bottom: 1.5em;
+    position: fixed;
+}
+
+.section{
+	width: 60%;
+	margin: 5px;
+}
+.footer{
+    bottom: 0;
+	margin-top: 5px;
+	text-align: center;
+}
+label{
+	font-weight: : bold;
+}
+
+table{
+	width: 50px;
+
+}
+
+th,tfoot{
+	color: rgb(255,255,255);
+	background:rgb(223,102,47);
+	text-align: center;
+}
+.close{
+	background: rgb(125,125,125);
+	color: white;
+	text-align: center;
+}
