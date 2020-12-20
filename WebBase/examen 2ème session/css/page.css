@@ -12,7 +12,7 @@ header{
 	background-image: url("../images/logo.png"),url("../images/Audi_logo.png");
 	background-repeat: no-repeat,no-repeat;
 	background-position: left,right;
-	background-size: 30%,100px;
+	background-size: contain, 100px;
 	text-align: center;
 }
 
@@ -22,7 +22,7 @@ header li {
 	color:rgb(0,0,0);
 	text-align: center;
 
- }
+}
 
 header li a{
 	color:rgb(0,0,0);
@@ -32,14 +32,14 @@ header li a:hover{
 	color:rgb(255,255,255);
 }
 
- header ul {
-	 text-align: center;
-	 border-color: rgb(223,102,47);
- }
+header ul {
+	text-align: center;
+	border-color: rgb(223,102,47);
+}
 
- nav{
- 	padding-top: 20px;
- }
+nav{
+	padding-top: 20px;
+}
 
 img {
 	max-width: 100%;
@@ -51,30 +51,31 @@ section{
 	margin-right: 210px;
 }
 
- aside{
- 	right:7px;
- 	top: 165px;
- 	width: 200px;
- 	bottom: 55px;
- 	position: fixed;
- }
- aside li{
- 	list-style-type: none;
- }
- aside ul{
- 	 	margin-left: 30px;
 
- }
+aside{
+	right:7px;
+	top: 165px;
+	width: 200px;
+	bottom: 55px;
+	position: fixed;
+}
+aside li{
+	list-style-type: none;
+}
+aside ul{
+	margin-left: 30px;
+
+}
 a{
- 	color:  rgb(0,0,0);
- }
+	color:  rgb(0,0,0);
+}
 
- footer{
-    text-align: center; 
-    padding: 10px; 
-    font-size: 70%; 
-    line-height: 14px;
-    margin-top: 10px;
+footer{
+	text-align: center;
+	padding: 10px;
+	font-size: 70%;
+	line-height: 14px;
+	margin-top: 10px;
 }
 
 h1{
@@ -95,60 +96,75 @@ h2{
 	color:rgb(255,255,255);
 	text-align: center;
 	/*background-color: rgb(223,102,47);*/
-background-color: rgb(175, 40, 67);;
+	background-color: rgb(175, 40, 67);;
 }
 .CellGrise{
 	background-color: rgb(125,125,125)	;
 	text-align: center;
 }
 .TableHorOuv td {
-	width: 50px;	
+	width: 50px;
 }
 
 form input,textarea,select{
 	margin-bottom: 10px;
 }
+/**
+color red *
+ */
+form label span{
+	color:red;
+	font-weight: bold;
+}
 /** Media query **/
 
-@media screen and (min-width:375px) and (max-width: 760px){
-	#section1{
-		min-height: calc(100vh - 10px);
-	}
-input{
-	max-width: 320px;
-}
-textarea{
-	max-width: 320px;
-}
+@media screen and (max-width: 1100px) {
 
-	table, thead, tbody, th, td, tr { 
-		display: block; 
+	header{
+		background-size: 40%, 100px;
 	}
-thead tr { 
+	#section1{
+		min-height: calc(100vh - 225px);
+	}
+
+}
+@media screen and (min-width:375px) and (max-width: 760px){
+
+	input{
+		max-width: 320px;
+	}
+	textarea{
+		max-width: 320px;
+	}
+
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+	thead tr {
 		position: absolute;
 		top: -9999px;
 		left: -9999px;
 	}
-	
+
 	tr { border: 1px solid #ccc; }
-	
-	td { 
+
+	td {
 		/* Behave  like a "row" */
 		border: none;
-		border-bottom: 1px solid #eee; 
+		border-bottom: 1px solid #eee;
 		position: relative;
-		padding-left: 50%; 
+		padding-left: 50%;
 	}
-	
-	td:before { 
+
+	td:before {
 		position: absolute;
 		top: 6px;
 		left: 6px;
-		width: 50%; 
-		padding-right: 10px; 
+		width: 50%;
+		padding-right: 10px;
 		white-space: nowrap;
 	}
-	
+
 	td:nth-of-type(2):before { content: "Lundi"; }
 	td:nth-of-type(3):before { content: "Mardi"; }
 	td:nth-of-type(4):before { content: "Mercredi"; }
@@ -159,67 +175,68 @@ thead tr {
 }
 /** medias query **/
 @media screen and (max-width: 667px){
-form input:not([type="checkbox"]){
-	width:93%;
-	max-width: 320px;
-}
-textarea{
-	width:95%;
-}
 
-.submit 
-{
-	max-width: 100px !important;
-}
-aside{
- 	right:7px;
- 	top:171px;
- 	width: 150px;
- 	bottom: 55px;
- 	position: fixed;
- }
-aside li{
-	margin-top: -2px;
-}
- aside ul{
- 	 	margin-left: 0;
- }
-aside h2{
-	margin-top: 10px;
-}
+	form input:not([type="checkbox"]){
+		width:93%;
+		max-width: 320px;
+	}
+	textarea{
+		width:95%;
+	}
 
- section{
-	margin-top:10px;
-	margin-right: 160px;
-}
- 	table, thead, tbody, th, td, tr { 
-		display: block; 
+	.submit
+	{
+		max-width: 100px !important;
+	}
+	aside{
+		right:7px;
+		top:171px;
+		width: 150px;
+		bottom: 55px;
+		position: fixed;
+	}
+	aside li{
+		margin-top: -2px;
+	}
+	aside ul{
+		margin-left: 0;
+	}
+	aside h2{
+		margin-top: 10px;
+	}
+
+	section{
+		margin-top:10px;
+		margin-right: 160px;
+	}
+	table, thead, tbody, th, td, tr {
+		display: block;
 	}
 	caption{
 		text-align: center;
 	}
-thead tr { 
+	thead tr {
 		position: absolute;
 		top: -9999px;
 		left: -9999px;
 	}
-	
+
 	tr { border: 1px solid #ccc; }
-	
-	td { 
+
+	td {
 		/* Behave  like a "row" */
 		border: none;
-		border-bottom: 1px solid #eee; 
+		border-bottom: 1px solid #eee;
 		position: relative;
-		padding-left: 50%; 
+		padding-left: 50%;
 	}
-	
-	td:before { 
+
+	td:before {
 		position: absolute;
 		top: 6px;
 		left: 6px;
-		width: 50%; 
-		padding-right: 10px; 
+		width: 50%;
+		padding-right: 10px;
 		white-space: nowrap;
 	}
 	td:nth-of-type(2):before { content: "Lundi"; }
